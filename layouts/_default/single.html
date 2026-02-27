@@ -1,14 +1,17 @@
 {{ define "main" }}
 {{ $beehiiv := .Site.Params.beehiiv_embed_url }}
 
+<!-- ── Article Header ─────────────────────────────────────────── -->
 <div class="article-header">
   <div class="article-header-inner">
     <a href="{{ "/" | relURL }}" class="back-link">← Retour · Back</a>
-    <span class="article-label">Mounjaro · Tirzépatide</span>
+    <div class="article-label">💊 Mounjaro · Tirzépatide</div>
     <h1>{{ .Title }}</h1>
     <div class="article-meta">
-      <span>📅 {{ .Date.Format "2 January 2006" }}</span>
-      {{ with .Params.source_name }}<span>📰 {{ . }}</span>{{ end }}
+      <span class="meta-chip">📅 {{ .Date.Format "2 January 2006" }}</span>
+      {{ with .Params.source_name }}
+      <span class="meta-chip">📰 {{ . }}</span>
+      {{ end }}
       {{ with .Params.source_url }}
       <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="source-link">🔗 Source originale</a>
       {{ end }}
@@ -16,51 +19,99 @@
   </div>
 </div>
 
-<!-- Pub haut d'article -->
-{{ partial "ad-banner.html" . }}
+<!-- ── Article Body ───────────────────────────────────────────── -->
+<div class="article-body">
 
-<!-- Contenu bilingue côte à côte -->
-<div class="bilingual-grid">
+  <!-- Pub haut d'article -->
+  {{ partial "ad-banner.html" . }}
 
-  <!-- FRANÇAIS -->
-  <div class="lang-block">
-    <div class="lang-header">
-      <span class="lang-flag">🇫🇷</span> Français
-    </div>
-    {{ with .Params.content_fr }}
-      {{ . | markdownify }}
-    {{ else }}
-      {{ .Content }}
-    {{ end }}
+  <!-- Sélecteur de langue (mobile) -->
+  <div class="lang-switcher" id="langSwitcher">
+    <button class="lang-btn active" data-lang="fr" onclick="switchLang('fr')">
+      🇫🇷 Français
+    </button>
+    <button class="lang-btn" data-lang="en" onclick="switchLang('en')">
+      🇬🇧 English
+    </button>
   </div>
 
-  <!-- ENGLISH -->
-  <div class="lang-block">
-    <div class="lang-header">
-      <span class="lang-flag">🇬🇧</span> English
+  <!-- Contenu bilingue côte à côte -->
+  <div class="bilingual-grid">
+
+    <!-- FRANÇAIS -->
+    <div class="lang-block" id="block-fr">
+      <div class="lang-header">
+        <span class="lang-flag">🇫🇷</span> Version française
+      </div>
+      <div class="lang-content">
+        {{ with .Params.content_fr }}
+          {{ . | markdownify }}
+        {{ else }}
+          {{ .Content }}
+        {{ end }}
+      </div>
     </div>
-    {{ with .Params.content_en }}
-      {{ . | markdownify }}
-    {{ end }}
+
+    <!-- ENGLISH -->
+    <div class="lang-block" id="block-en">
+      <div class="lang-header">
+        <span class="lang-flag">🇬🇧</span> English version
+      </div>
+      <div class="lang-content">
+        {{ with .Params.content_en }}
+          {{ . | markdownify }}
+        {{ else }}
+          <p><em>English translation not available.</em></p>
+        {{ end }}
+      </div>
+    </div>
+
   </div>
 
-</div>
+  <!-- Pub bas d'article -->
+  {{ partial "ad-banner.html" . }}
 
-<!-- Pub bas d'article -->
-{{ partial "ad-banner.html" . }}
-
-<!-- Newsletter -->
-<div style="max-width:960px;margin:0 auto;padding:0 20px 60px;">
+  <!-- Newsletter -->
   <div class="newsletter-section">
-    <h3>📬 Recevoir les actualités Mounjaro chaque matin · Daily digest</h3>
-    <p>Abonne-toi gratuitement · Subscribe for free</p>
-    {{ if $beehiiv }}
-      <iframe src="{{ $beehiiv }}" class="beehiiv-embed" data-test-id="beehiiv-embed"
-        frameborder="0" scrolling="no"
-        style="width:100%;max-width:480px;height:320px;border-radius:8px;border:1px solid #e5e7eb;background:transparent;">
-      </iframe>
-    {{ end }}
+    <div class="newsletter-inner">
+      <div class="newsletter-icon">📬</div>
+      <h3>Recevez l'actu Mounjaro chaque matin</h3>
+      <p>
+        Abonnez-vous gratuitement — résumé quotidien FR &amp; EN dans votre boîte mail.
+        <em>Subscribe free — daily FR &amp; EN digest in your inbox.</em>
+      </p>
+      {{ if $beehiiv }}
+        <iframe src="{{ $beehiiv }}" class="beehiiv-embed" data-test-id="beehiiv-embed"
+          frameborder="0" scrolling="no">
+        </iframe>
+      {{ end }}
+    </div>
   </div>
+
 </div>
+
+<script>
+function switchLang(lang) {
+  const isMobile = window.innerWidth <= 700;
+  if (!isMobile) return;
+
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+  document.getElementById('block-fr').style.display = (lang === 'fr') ? '' : 'none';
+  document.getElementById('block-en').style.display = (lang === 'en') ? '' : 'none';
+}
+
+// On load: on mobile, hide EN by default
+if (window.innerWidth <= 700) {
+  document.getElementById('block-en').style.display = 'none';
+}
+window.addEventListener('resize', function() {
+  if (window.innerWidth > 700) {
+    document.getElementById('block-fr').style.display = '';
+    document.getElementById('block-en').style.display = '';
+  }
+});
+</script>
 
 {{ end }}

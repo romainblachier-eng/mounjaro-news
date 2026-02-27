@@ -2,14 +2,34 @@
 {{ $pages := where .Site.RegularPages "Section" "posts" }}
 {{ $pages = $pages.ByDate.Reverse }}
 {{ $beehiiv := .Site.Params.beehiiv_embed_url }}
+{{ $count := len $pages }}
 
 <!-- ── Hero ──────────────────────────────────────────────────── -->
 <section class="hero">
   <div class="hero-inner">
-    <div class="hero-badge">💊 Mis à jour quotidiennement · Updated daily</div>
-    <h1>Toute l'actu <em>Mounjaro</em><br>en français &amp; en anglais</h1>
-    <p>Les dernières nouvelles sur le tirzépatide reformulées et traduites par intelligence artificielle chaque jour.<br>
-    <em>The latest tirzepatide news — AI-reformulated and translated every day.</em></p>
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Mis à jour chaque jour · Updated daily
+    </div>
+    <h1>Toute l'actu <em>Mounjaro</em><br>FR &amp; EN</h1>
+    <p class="hero-sub">
+      Les dernières nouvelles sur le tirzépatide reformulées et traduites par IA chaque matin.
+      <em>The latest tirzepatide news — AI-reformulated every day.</em>
+    </p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-icon">📰</span>
+        <span class="hero-stat-text">{{ $count }} articles publiés</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-icon">🌐</span>
+        <span class="hero-stat-text">Français &amp; English</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-icon">🤖</span>
+        <span class="hero-stat-text">Résumé par Claude AI</span>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -18,21 +38,39 @@
   <div class="page-inner">
 
     {{ if $pages }}
+
       <!-- Pub haut de page -->
       {{ partial "ad-banner.html" . }}
 
-      <p class="section-title">Derniers articles · Latest articles</p>
+      <div class="section-header">
+        <p class="section-title">Derniers articles · Latest articles</p>
+        <span class="section-count">{{ $count }} articles</span>
+      </div>
+
       <div class="article-grid">
-        {{ range $pages }}
-        <div class="article-card">
-          {{ with .Params.source_name }}
-          <span class="card-source">{{ . }}</span>
-          {{ end }}
-          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-          <p class="card-meta">📅 {{ .Date.Format "02/01/2006" }}</p>
-          <p class="card-excerpt">{{ .Params.summary_fr | default .Summary }}</p>
-          <a href="{{ .Permalink }}" class="btn">Lire · Read →</a>
-        </div>
+        {{ range $i, $page := $pages }}
+        <article class="article-card{{ if eq $i 0 }} featured{{ end }}">
+          <div class="card-top-bar"></div>
+          <div class="card-body">
+            <div class="card-header">
+              {{ with $page.Params.source_name }}
+              <span class="card-source">{{ . }}</span>
+              {{ else }}
+              <span class="card-source">Mounjaro News</span>
+              {{ end }}
+              <span class="card-date">{{ $page.Date.Format "02/01/06" }}</span>
+            </div>
+            <h2><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
+            <p class="card-excerpt">{{ $page.Params.summary_fr | default $page.Summary }}</p>
+            <div class="card-footer">
+              <div class="card-langs">
+                <span class="card-lang-badge">🇫🇷 FR</span>
+                <span class="card-lang-badge">🇬🇧 EN</span>
+              </div>
+              <a href="{{ $page.Permalink }}" class="btn-read">Lire l'article</a>
+            </div>
+          </div>
+        </article>
         {{ end }}
       </div>
 
@@ -41,21 +79,26 @@
 
       <!-- Newsletter -->
       <div class="newsletter-section">
-        <h3>📬 Recevoir les actualités Mounjaro chaque matin</h3>
-        <p>Abonne-toi gratuitement · Subscribe for free — FR &amp; EN daily digest</p>
-        {{ if $beehiiv }}
-          <iframe src="{{ $beehiiv }}" class="beehiiv-embed" data-test-id="beehiiv-embed"
-            frameborder="0" scrolling="no"
-            style="width:100%;max-width:480px;height:320px;border-radius:8px;border:1px solid #e5e7eb;background:transparent;">
-          </iframe>
-        {{ end }}
+        <div class="newsletter-inner">
+          <div class="newsletter-icon">📬</div>
+          <h3>Recevez l'actu Mounjaro chaque matin</h3>
+          <p>
+            Abonnez-vous gratuitement — résumé quotidien FR &amp; EN dans votre boîte mail.
+            <em>Subscribe free — daily FR &amp; EN digest in your inbox.</em>
+          </p>
+          {{ if $beehiiv }}
+            <iframe src="{{ $beehiiv }}" class="beehiiv-embed" data-test-id="beehiiv-embed"
+              frameborder="0" scrolling="no">
+            </iframe>
+          {{ end }}
+        </div>
       </div>
 
     {{ else }}
-      <div style="text-align:center;padding:60px 20px;">
-        <div style="font-size:2.5rem;margin-bottom:16px;">⏳</div>
-        <h2 style="font-size:1.3rem;font-weight:700;margin-bottom:10px;">Le site se met en place…</h2>
-        <p style="color:var(--text-muted);">Le premier article sera généré lors de la prochaine exécution du workflow GitHub Actions.</p>
+      <div style="text-align:center;padding:80px 20px;">
+        <div style="font-size:3rem;margin-bottom:16px;">⏳</div>
+        <h2 style="font-size:1.3rem;font-weight:800;margin-bottom:12px;letter-spacing:-.01em;">Le site se met en place…</h2>
+        <p style="color:var(--text-muted);font-size:.95rem;">Le premier article sera généré lors de la prochaine exécution du workflow GitHub Actions.</p>
       </div>
     {{ end }}
 

@@ -155,7 +155,7 @@
   <!-- ── Fonts ────────────────────────────────────────────────── -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 
@@ -184,15 +184,15 @@
     <nav class="site-nav">
       <a href="{{ "/" | relURL }}" class="site-logo">
         <div class="logo-icon">MNJ</div>
-        <div>
-          <div>Mounjaro News</div>
-          <div class="nav-tagline">Actualités tirzépatide · FR &amp; EN</div>
+        <div class="logo-text">
+          <span class="logo-name">Mounjaro News</span>
+          <span class="logo-sub">Actualités tirzépatide · FR &amp; EN</span>
         </div>
       </a>
       <ul class="nav-links">
         <li><a href="{{ "/" | relURL }}">Accueil</a></li>
         <li><a href="https://www.mounjaro.com" target="_blank" rel="noopener">Mounjaro.com</a></li>
-        <li><a href="{{ .Site.BaseURL }}sitemap.xml" target="_blank" rel="noopener">Sitemap</a></li>
+        <li><a href="{{ "/" | relURL }}#newsletter" class="nav-pill">Newsletter gratuite</a></li>
       </ul>
     </nav>
   </header>
@@ -201,14 +201,46 @@
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <p class="footer-copy">
-        &copy; {{ now.Format "2006" }} Mounjaro News &nbsp;·&nbsp;
-        Alimenté par <a href="https://www.anthropic.com" target="_blank" rel="noopener">Claude AI</a>
-      </p>
-      <p class="footer-disclaimer">
-        Site d'information uniquement — pas de conseil médical. Consultez votre médecin avant tout traitement.
-        For informational purposes only — not medical advice.
-      </p>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="{{ "/" | relURL }}" class="site-logo">
+            <div class="logo-icon">MNJ</div>
+            <div class="logo-text">
+              <span class="logo-name" style="color:rgba(255,255,255,.9)">Mounjaro News</span>
+              <span class="logo-sub">Actualités tirzépatide · FR &amp; EN</span>
+            </div>
+          </a>
+          <p style="margin-top:14px;">
+            Résumés quotidiens des actualités sur le Mounjaro (tirzépatide), reformulés et traduits par intelligence artificielle. Pas de conseil médical.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="{{ "/" | relURL }}">Accueil</a></li>
+            <li><a href="{{ "/" | relURL }}#newsletter">Newsletter</a></li>
+            <li><a href="{{ .Site.BaseURL }}sitemap.xml" target="_blank">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Ressources</h4>
+          <ul>
+            <li><a href="https://www.mounjaro.com" target="_blank" rel="noopener">Mounjaro.com</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=tirzepatide" target="_blank" rel="noopener">PubMed</a></li>
+            <li><a href="https://www.ema.europa.eu" target="_blank" rel="noopener">EMA</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; {{ now.Format "2006" }} Mounjaro News &nbsp;·&nbsp;
+          Propulsé par <a href="https://www.anthropic.com" target="_blank" rel="noopener" style="color:rgba(255,255,255,.6)">Claude AI</a>
+        </p>
+        <p class="footer-disclaimer">
+          ⚠️ Site d'information uniquement — pas de conseil médical. Consultez toujours votre médecin.
+          For informational purposes only — not medical advice.
+        </p>
+      </div>
     </div>
   </footer>
 
