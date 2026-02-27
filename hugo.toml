@@ -10,17 +10,27 @@ defaultContentLanguage = "fr"
   beehiiv_embed_url = ""
   coinzilla_zone_id = ""
 
+  # SEO — mots-clés principaux (utilisés dans les meta)
+  keywords_fr = "Mounjaro, tirzépatide, GLP-1, perte de poids, diabète type 2, obésité, Eli Lilly, actualités Mounjaro, tirzepatide France"
+  keywords_en = "Mounjaro, tirzepatide, GLP-1, weight loss, type 2 diabetes, obesity, Eli Lilly, Mounjaro news"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 4
 
 [outputs]
-  home    = ["HTML", "RSS"]
+  home    = ["HTML", "RSS", "JSON"]
   page    = ["HTML"]
   section = ["HTML", "RSS"]
 
 [sitemap]
   changefreq = "daily"
   filename   = "sitemap.xml"
-  priority   = 0.5
+  priority   = 0.8
+
+[minify]
+  minifyOutput = true

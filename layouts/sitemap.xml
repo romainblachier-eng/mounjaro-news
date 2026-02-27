@@ -1,0 +1,37 @@
+{{- $pages := .Site.RegularPages -}}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Page d'accueil -->
+  <url>
+    <loc>{{ .Site.BaseURL }}</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="{{ .Site.BaseURL }}"/>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ .Site.BaseURL }}"/>
+  </url>
+
+  <!-- Articles -->
+  {{- range $pages }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    <lastmod>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="{{ .Permalink }}"/>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ .Permalink }}"/>
+    <news:news>
+      <news:publication>
+        <news:name>Mounjaro News</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</news:publication_date>
+      <news:title>{{ .Title | html }}</news:title>
+      <news:keywords>Mounjaro, tirzepatide, tirzépatide, GLP-1{{ with .Params.source_name }}, {{ . }}{{ end }}</news:keywords>
+    </news:news>
+  </url>
+  {{- end }}
+
+</urlset>
