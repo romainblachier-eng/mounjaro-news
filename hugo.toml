@@ -7,7 +7,7 @@ defaultContentLanguage = "fr"
   description      = "Toute l'actualité du Mounjaro (tirzépatide) — articles reformulés et traduits chaque jour par IA"
   description_en   = "All the latest Mounjaro (tirzepatide) news — daily AI-reformulated and translated articles"
   author           = "Mounjaro News"
-  beehiiv_embed_url = ""
+  beehiiv_embed_url = "https://subscribe-forms.beehiiv.com/91587c2f-9b1e-45e3-95cf-1f8ca0fe3c4b"
   coinzilla_zone_id = ""
 
   # SEO — mots-clés principaux (utilisés dans les meta)
