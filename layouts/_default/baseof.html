@@ -164,6 +164,11 @@
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
   {{ end }}
 
+  <!-- ── Google AdSense ──────────────────────────────────────── -->
+  {{ with .Site.Params.adsense_publisher }}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
+  {{ end }}
+
   <!-- ── Beehiiv embed script ─────────────────────────────────── -->
   {{ with .Site.Params.beehiiv_embed_url }}
   <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>

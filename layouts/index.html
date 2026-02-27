@@ -18,6 +18,9 @@
   <div class="page-inner">
 
     {{ if $pages }}
+      <!-- Pub haut de page -->
+      {{ partial "ad-banner.html" . }}
+
       <p class="section-title">Derniers articles · Latest articles</p>
       <div class="article-grid">
         {{ range $pages }}
@@ -32,6 +35,9 @@
         </div>
         {{ end }}
       </div>
+
+      <!-- Pub milieu de page -->
+      {{ partial "ad-banner.html" . }}
 
       <!-- Newsletter -->
       <div class="newsletter-section">
