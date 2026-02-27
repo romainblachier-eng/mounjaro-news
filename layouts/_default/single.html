@@ -1,0 +1,60 @@
+{{ define "main" }}
+{{ $beehiiv := .Site.Params.beehiiv_embed_url }}
+
+<div class="article-header">
+  <div class="article-header-inner">
+    <a href="{{ "/" | relURL }}" class="back-link">← Retour · Back</a>
+    <span class="article-label">Mounjaro · Tirzépatide</span>
+    <h1>{{ .Title }}</h1>
+    <div class="article-meta">
+      <span>📅 {{ .Date.Format "2 January 2006" }}</span>
+      {{ with .Params.source_name }}<span>📰 {{ . }}</span>{{ end }}
+      {{ with .Params.source_url }}
+      <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="source-link">🔗 Source originale</a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<!-- Contenu bilingue côte à côte -->
+<div class="bilingual-grid">
+
+  <!-- FRANÇAIS -->
+  <div class="lang-block">
+    <div class="lang-header">
+      <span class="lang-flag">🇫🇷</span> Français
+    </div>
+    {{ with .Params.content_fr }}
+      {{ . | markdownify }}
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+  </div>
+
+  <!-- ENGLISH -->
+  <div class="lang-block">
+    <div class="lang-header">
+      <span class="lang-flag">🇬🇧</span> English
+    </div>
+    {{ with .Params.content_en }}
+      {{ . | markdownify }}
+    {{ end }}
+  </div>
+
+</div>
+
+<!-- Newsletter -->
+<div style="max-width:960px;margin:0 auto;padding:0 20px 60px;">
+  <div class="newsletter-section">
+    <h3>📬 Recevoir les actualités Mounjaro chaque matin · Daily digest</h3>
+    <p>Abonne-toi gratuitement · Subscribe for free</p>
+    {{ if $beehiiv }}
+      <iframe src="{{ $beehiiv }}" class="beehiiv-embed" data-test-id="beehiiv-embed"
+        frameborder="0" scrolling="no"
+        style="width:100%;max-width:480px;height:320px;border-radius:8px;border:1px solid #e5e7eb;background:transparent;">
+      </iframe>
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

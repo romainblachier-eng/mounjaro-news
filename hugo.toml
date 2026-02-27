@@ -1,0 +1,26 @@
+baseURL = "https://romainblachier-eng.github.io/mounjaro-news/"
+languageCode = "fr-FR"
+title = "Mounjaro News"
+defaultContentLanguage = "fr"
+
+[params]
+  description      = "Toute l'actualité du Mounjaro (tirzépatide) — articles reformulés et traduits chaque jour par IA"
+  description_en   = "All the latest Mounjaro (tirzepatide) news — daily AI-reformulated and translated articles"
+  author           = "Mounjaro News"
+  beehiiv_embed_url = ""
+  coinzilla_zone_id = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home    = ["HTML", "RSS"]
+  page    = ["HTML"]
+  section = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "daily"
+  filename   = "sitemap.xml"
+  priority   = 0.5

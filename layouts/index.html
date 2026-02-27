@@ -1,0 +1,58 @@
+{{ define "main" }}
+{{ $pages := where .Site.RegularPages "Section" "posts" }}
+{{ $pages = $pages.ByDate.Reverse }}
+{{ $beehiiv := .Site.Params.beehiiv_embed_url }}
+
+<!-- ── Hero ──────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">💊 Mis à jour quotidiennement · Updated daily</div>
+    <h1>Toute l'actu <em>Mounjaro</em><br>en français &amp; en anglais</h1>
+    <p>Les dernières nouvelles sur le tirzépatide reformulées et traduites par intelligence artificielle chaque jour.<br>
+    <em>The latest tirzepatide news — AI-reformulated and translated every day.</em></p>
+  </div>
+</section>
+
+<!-- ── Articles ───────────────────────────────────────────────── -->
+<main class="page-main">
+  <div class="page-inner">
+
+    {{ if $pages }}
+      <p class="section-title">Derniers articles · Latest articles</p>
+      <div class="article-grid">
+        {{ range $pages }}
+        <div class="article-card">
+          {{ with .Params.source_name }}
+          <span class="card-source">{{ . }}</span>
+          {{ end }}
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <p class="card-meta">📅 {{ .Date.Format "02/01/2006" }}</p>
+          <p class="card-excerpt">{{ .Params.summary_fr | default .Summary }}</p>
+          <a href="{{ .Permalink }}" class="btn">Lire · Read →</a>
+        </div>
+        {{ end }}
+      </div>
+
+      <!-- Newsletter -->
+      <div class="newsletter-section">
+        <h3>📬 Recevoir les actualités Mounjaro chaque matin</h3>
+        <p>Abonne-toi gratuitement · Subscribe for free — FR &amp; EN daily digest</p>
+        {{ if $beehiiv }}
+          <iframe src="{{ $beehiiv }}" class="beehiiv-embed" data-test-id="beehiiv-embed"
+            frameborder="0" scrolling="no"
+            style="width:100%;max-width:480px;height:320px;border-radius:8px;border:1px solid #e5e7eb;background:transparent;">
+          </iframe>
+        {{ end }}
+      </div>
+
+    {{ else }}
+      <div style="text-align:center;padding:60px 20px;">
+        <div style="font-size:2.5rem;margin-bottom:16px;">⏳</div>
+        <h2 style="font-size:1.3rem;font-weight:700;margin-bottom:10px;">Le site se met en place…</h2>
+        <p style="color:var(--text-muted);">Le premier article sera généré lors de la prochaine exécution du workflow GitHub Actions.</p>
+      </div>
+    {{ end }}
+
+  </div>
+</main>
+{{ end }}
