@@ -1,9 +1,7 @@
 User-agent: *
 Allow: /
 
-# Sitemaps
-Sitemap: https://romainblachier-eng.github.io/mounjaro-news/sitemap.xml
+Sitemap: https://mounjaronews.info/sitemap.xml
 
-# Bloquer les dossiers inutiles
 Disallow: /tags/
 Disallow: /categories/
