@@ -4,7 +4,7 @@
 {{ $beehiiv := .Site.Params.beehiiv_embed_url }}
 {{ $count := len $pages }}
 
-<!-- ── Hero ──────────────────────────────────────────────────── -->
+<!-- ── Hero Section ─────────────────────────────────────────── -->
 <section class="hero">
   <div class="hero-inner">
     <div class="hero-badge">
@@ -13,13 +13,13 @@
     </div>
     <h1>Toute l'actu <em>Mounjaro</em><br>FR &amp; EN</h1>
     <p class="hero-sub">
-      Les dernières nouvelles sur le tirzépatide reformulées et traduites par IA chaque matin.
+      Les dernières nouvelles sur la tirzépatide reformulées et traduites par IA chaque matin.
       <em>The latest tirzepatide news — AI-reformulated every day.</em>
     </p>
     <div class="hero-stats">
       <div class="hero-stat">
         <span class="hero-stat-icon">📰</span>
-        <span class="hero-stat-text">{{ $count }} articles publiés</span>
+        <span class="hero-stat-text">{{ $count }} articles</span>
       </div>
       <div class="hero-stat">
         <span class="hero-stat-icon">🌐</span>
@@ -27,31 +27,34 @@
       </div>
       <div class="hero-stat">
         <span class="hero-stat-icon">🤖</span>
-        <span class="hero-stat-text">Résumé par Claude AI</span>
+        <span class="hero-stat-text">Résumé par Claude</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── Articles ───────────────────────────────────────────────── -->
+<!-- ── Articles Main ────────────────────────────────────────── -->
 <main class="page-main">
   <div class="page-inner">
 
     {{ if $pages }}
 
-      <!-- Pub haut de page -->
+      <!-- Advertisement -->
       {{ partial "ad-banner.html" . }}
 
+      <!-- Section Header -->
       <div class="section-header">
         <p class="section-title">Derniers articles · Latest articles</p>
         <span class="section-count">{{ $count }} articles</span>
       </div>
 
+      <!-- Articles Grid -->
       <div class="article-grid">
         {{ range $i, $page := $pages }}
         <article class="article-card{{ if eq $i 0 }} featured{{ end }}">
           <div class="card-top-bar"></div>
           <div class="card-body">
+            <!-- Card Header -->
             <div class="card-header">
               {{ with $page.Params.source_name }}
               <span class="card-source">{{ . }}</span>
@@ -60,24 +63,30 @@
               {{ end }}
               <span class="card-date">{{ $page.Date.Format "02/01/06" }}</span>
             </div>
+
+            <!-- Card Title -->
             <h2><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
+
+            <!-- Card Excerpt -->
             <p class="card-excerpt">{{ $page.Params.summary_fr | default $page.Summary }}</p>
+
+            <!-- Card Footer -->
             <div class="card-footer">
               <div class="card-langs">
                 <span class="card-lang-badge">🇫🇷 FR</span>
                 <span class="card-lang-badge">🇬🇧 EN</span>
               </div>
-              <a href="{{ $page.Permalink }}" class="btn-read">Lire l'article</a>
+              <a href="{{ $page.Permalink }}" class="btn-read">Lire</a>
             </div>
           </div>
         </article>
         {{ end }}
       </div>
 
-      <!-- Pub milieu de page -->
+      <!-- Advertisement -->
       {{ partial "ad-banner.html" . }}
 
-      <!-- Newsletter -->
+      <!-- Newsletter Section -->
       <div class="newsletter-section">
         <div class="newsletter-inner">
           <div class="newsletter-icon">📬</div>
@@ -95,10 +104,10 @@
       </div>
 
     {{ else }}
-      <div style="text-align:center;padding:80px 20px;">
-        <div style="font-size:3rem;margin-bottom:16px;">⏳</div>
-        <h2 style="font-size:1.3rem;font-weight:800;margin-bottom:12px;letter-spacing:-.01em;">Le site se met en place…</h2>
-        <p style="color:var(--text-muted);font-size:.95rem;">Le premier article sera généré lors de la prochaine exécution du workflow GitHub Actions.</p>
+      <div style="text-align:center;padding:120px 20px;">
+        <div style="font-size:4rem;margin-bottom:20px;">⏳</div>
+        <h2 style="font-size:1.4rem;font-weight:800;margin-bottom:14px;letter-spacing:-.01em;color:var(--text);">Le site se met en place…</h2>
+        <p style="color:var(--text-muted);font-size:.95rem;max-width:400px;margin:0 auto;">Le premier article sera généré lors de la prochaine exécution du workflow GitHub Actions.</p>
       </div>
     {{ end }}
 
