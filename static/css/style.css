@@ -266,7 +266,7 @@ img {
   position: relative;
   overflow: hidden;
   background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #1e40af 100%);
-  padding: 80px 24px 64px;
+  padding: 48px 24px 40px;
   text-align: center;
 }
 
@@ -398,7 +398,7 @@ img {
 
 /* ─── Page Main ─────────────────────────────────────────────── */
 .page-main {
-  padding: 48px 24px 88px;
+  padding: 28px 24px 88px;
 }
 
 .page-inner {
