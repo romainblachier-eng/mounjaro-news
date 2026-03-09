@@ -2,6 +2,7 @@ baseURL = "https://mounjaronews.info/"
 languageCode = "fr-FR"
 title = "Mounjaro News"
 defaultContentLanguage = "fr"
+theme = "PaperMod"
 
 [params]
   description      = "Toute l'actualité du Mounjaro (tirzépatide) — articles reformulés et traduits chaque jour par IA"
@@ -11,9 +12,50 @@ defaultContentLanguage = "fr"
   coinzilla_zone_id  = ""
   adsense_publisher  = "ca-pub-4796217302525352"
 
-  # SEO — mots-clés principaux (utilisés dans les meta)
+  # SEO
   keywords_fr = "Mounjaro, tirzépatide, GLP-1, perte de poids, diabète type 2, obésité, Eli Lilly, actualités Mounjaro, tirzepatide France"
   keywords_en = "Mounjaro, tirzepatide, GLP-1, weight loss, type 2 diabetes, obesity, Eli Lilly, Mounjaro news"
+
+  # PaperMod params
+  env = "production"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  disableSpecial1stPost = true
+
+  [params.homeInfoParams]
+    Title = "Mounjaro News"
+    Content = "Toute l'actualité du Mounjaro (tirzépatide) — articles reformulés et traduits chaque jour par IA"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[params.label]
+  text = "Mounjaro News"
+  icon = ""
+  iconHeight = 35
+
+[[menu.main]]
+  identifier = "accueil"
+  name = "Accueil"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "articles"
+  name = "Articles"
+  url = "/posts/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "newsletter"
+  name = "Newsletter"
+  url = "/#newsletter"
+  weight = 30
 
 [markup]
   [markup.goldmark]
