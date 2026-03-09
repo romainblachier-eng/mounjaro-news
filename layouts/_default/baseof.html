@@ -164,7 +164,26 @@
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
   {{ end }}
 
-  <!-- ── Google AdSense ──────────────────────────────────────── -->
+      <!-- ── Google Consent Mode v2 (MUST be before AdSense) ────── -->
+      <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('consent', 'default', {
+                        'ad_storage': 'denied',
+                        'ad_user_data': 'denied',
+                        'ad_personalization': 'denied',
+                        'analytics_storage': 'denied',
+                        'wait_for_update': 500
+              });
+      </script>
+
+      <!-- ── Google Funding Choices (CMP) ───────────────────────── -->
+      {{ with .Site.Params.adsense_publisher }}
+      <script async src="https://fundingchoicesmessages.google.com/i/{{ . }}?ers=1" nonce=""></script>
+      <script nonce="">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+      {{ end }}
+
+      <!-- ── Google AdSense ──────────────────────────────────────── -->
   {{ with .Site.Params.adsense_publisher }}
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
   {{ end }}
