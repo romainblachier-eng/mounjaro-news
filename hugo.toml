@@ -18,7 +18,7 @@ theme = "PaperMod"
 
   # PaperMod params
   env = "production"
-  defaultTheme = "auto"
+  defaultTheme = "light"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
