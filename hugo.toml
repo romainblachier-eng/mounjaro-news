@@ -1,20 +1,20 @@
 baseURL = "https://mounjaronews.info/"
 languageCode = "fr-FR"
-title = "Mounjaro News"
+title = "Mounjaro News - Actualite tirzepatide"
 defaultContentLanguage = "fr"
 theme = "PaperMod"
 
 [params]
-  description      = "Toute l'actualité du Mounjaro (tirzépatide) — articles reformulés et traduits chaque jour par IA"
-  description_en   = "All the latest Mounjaro (tirzepatide) news — daily AI-reformulated and translated articles"
+  description      = "Votre source d'information fiable sur le Mounjaro (tirzepatide) - veille quotidienne, articles sources, traduits et reformules par IA"
+  description_en   = "Your trusted source for Mounjaro (tirzepatide) news - daily sourced, translated and AI-reformulated articles"
   author           = "Mounjaro News"
   beehiiv_embed_url = "https://subscribe-forms.beehiiv.com/91587c2f-9b1e-45e3-95cf-1f8ca0fe3c4b"
   coinzilla_zone_id  = ""
   adsense_publisher  = "ca-pub-4796217302525352"
 
   # SEO
-  keywords_fr = "Mounjaro, tirzépatide, GLP-1, perte de poids, diabète type 2, obésité, Eli Lilly, actualités Mounjaro, tirzepatide France"
-  keywords_en = "Mounjaro, tirzepatide, GLP-1, weight loss, type 2 diabetes, obesity, Eli Lilly, Mounjaro news"
+  keywords_fr = "Mounjaro, tirzepatide, GLP-1, perte de poids, diabete type 2, obesite, Eli Lilly, actualites Mounjaro, tirzepatide France, tirzepatide actualites"
+  keywords_en = "Mounjaro, tirzepatide, GLP-1, weight loss, type 2 diabetes, obesity, Eli Lilly, Mounjaro news, tirzepatide news"
 
   # PaperMod params
   env = "production"
@@ -23,12 +23,12 @@ theme = "PaperMod"
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
+  ShowCodeCopyButtons = false
   disableSpecial1stPost = true
 
   [params.homeInfoParams]
     Title = "Mounjaro News"
-    Content = "Toute l'actualité du Mounjaro (tirzépatide) — articles reformulés et traduits chaque jour par IA"
+    Content = "Votre source d'information fiable sur le Mounjaro (tirzepatide)"
 
   [[params.socialIcons]]
     name = "rss"
@@ -36,8 +36,8 @@ theme = "PaperMod"
 
 [params.label]
   text = "Mounjaro News"
-  icon = ""
-  iconHeight = 35
+  icon = "/favicon.svg"
+  iconHeight = 24
 
 [[menu.main]]
   identifier = "accueil"
