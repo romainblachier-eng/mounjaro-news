@@ -9,11 +9,11 @@
   <div class="hero-inner">
     <div class="hero-badge">
       <span class="badge-dot"></span>
-      Mis a jour chaque jour - Updated daily
+      Mis à jour chaque jour - Updated daily
     </div>
-    <h1>L'actualite <em>Mounjaro</em><br>fiable et bilingue</h1>
+    <h1>L'actualité <em>Mounjaro</em><br>fiable et bilingue</h1>
     <p class="hero-sub">
-      Veille quotidienne sur la tirzepatide : articles sources, reformules et traduits chaque matin.
+      Veille quotidienne sur la tirzepatide : articles sources, reformulés et traduits chaque matin.
       <em>Daily tirzepatide intelligence - sourced, reformulated and translated.</em>
     </p>
     <div class="hero-stats">
@@ -27,7 +27,7 @@
       </div>
       <div class="hero-stat">
         <span class="hero-stat-icon">🔬</span>
-        <span class="hero-stat-text">Sources verifiees</span>
+        <span class="hero-stat-text">Sources vérifiées</span>
       </div>
     </div>
   </div>
@@ -40,32 +40,47 @@
     <div class="trust-bar">
       <div class="trust-item">
         <span class="trust-icon">🏥</span>
-        Actualite sante
+        Actualité santé
       </div>
       <div class="trust-item">
         <span class="trust-icon">🔄</span>
-        Mise a jour quotidienne
+        Mise à jour quotidienne
       </div>
       <div class="trust-item">
         <span class="trust-icon">📋</span>
-        Sources medicales citees
+        Sources médicales citées
       </div>
       <div class="trust-item">
         <span class="trust-icon">🌐</span>
-        Francais &amp; English
+        Français & English
       </div>
     </div>
 
     {{ if $pages }}
 
-      <div class="section-header">
-        <p class="section-title">Derniers articles - Latest articles</p>
-        <span class="section-count">{{ $count }} articles publies</span>
+      <!-- Search & Filter Bar -->
+      <div class="search-filter-bar">
+        <div class="search-box">
+          <input type="text" id="articleSearch" placeholder="Chercher un article... / Search articles...">
+        </div>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-view="grid">📊 Grille</button>
+          <button class="filter-btn" data-view="timeline">📅 Timeline</button>
+          <button class="filter-btn" data-filter="recent">🆕 Récents</button>
+          <button class="filter-btn" data-filter="popular">⭐ Populaires</button>
+          <button class="filter-btn" data-filter="clinical">🔬 Études</button>
+        </div>
       </div>
 
-      <div class="article-grid">
+      <div class="section-header">
+        <p class="section-title">Derniers articles - Latest articles</p>
+        <span class="section-count" id="articleCount">{{ $count }} articles publiés</span>
+      </div>
+
+      <!-- Grid View -->
+      <div class="article-grid" id="articleGrid">
         {{ range $i, $page := $pages }}
-        <article class="article-card{{ if eq $i 0 }} featured{{ end }}">
+        <article class="article-card{{ if eq $i 0 }} featured{{ end }}" data-title="{{ .Title }}" data-date="{{ .Date.Format "2006-01-02" }}">
           <div class="card-top-bar"></div>
           <div class="card-body">
             <div class="card-header">
@@ -83,39 +98,178 @@
                 <span class="card-lang-badge">🇫🇷 FR</span>
                 <span class="card-lang-badge">🇬🇧 EN</span>
               </div>
-              <a href="{{ $page.Permalink }}" class="btn-read">Lire l'article</a>
+              <a href="{{ $page.Permalink }}" class="btn-read">Lire →</a>
             </div>
           </div>
         </article>
         {{ end }}
       </div>
 
-      {{ partial "ad-banner.html" . }}
+      <!-- Timeline View (Hidden by default) -->
+      <div class="article-timeline" id="articleTimeline" style="display: none;">
+        {{ range $i, $page := $pages }}
+        <div class="timeline-item" data-title="{{ .Title }}" data-date="{{ .Date.Format "2006-01-02" }}">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h3>
+            <div class="timeline-meta">
+              {{ with $page.Params.source_name }}{{ . }} • {{ end }}
+              {{ $page.Date.Format "02 Jan 2006" }}
+              <span class="card-langs" style="display: inline-flex; margin-left: 8px;">
+                <span class="card-lang-badge">FR</span>
+                <span class="card-lang-badge">EN</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
 
+      <!-- Newsletter Section -->
       <div class="newsletter-section">
         <div class="newsletter-inner">
           <div class="newsletter-icon">📬</div>
           <h3>Votre veille Mounjaro, chaque matin</h3>
           <p>
-            Recevez gratuitement le resume quotidien FR &amp; EN des dernieres actualites tirzepatide.
-            <em>Subscribe free - daily bilingual digest in your inbox.</em>
+            Recevez gratuitement le résumé quotidien FR & EN des dernières actualités tirzepatide.
           </p>
           {{ if $beehiiv }}
-            <iframe src="{{ $beehiiv }}" class="beehiiv-embed" data-test-id="beehiiv-embed"
-              frameborder="0" scrolling="no">
-            </iframe>
+          <iframe src="{{ $beehiiv }}" frameborder="0" scrolling="no" style="width:100%;max-width:480px;height:280px;border-radius:8px;border:none;background:transparent;"></iframe>
+          {{ else }}
+          <div style="background: rgba(255,255,255,0.2); padding: 16px 24px; border-radius: 8px; margin-top: 16px;">
+            Newsletter configuration coming soon
+          </div>
           {{ end }}
         </div>
       </div>
 
-    {{ else }}
-      <div style="text-align:center;padding:120px 20px;">
-        <div style="font-size:3.5rem;margin-bottom:20px;">🔬</div>
-        <h2 style="font-size:1.4rem;font-weight:800;margin-bottom:14px;letter-spacing:-.01em;color:var(--navy);">Le site se met en place...</h2>
-        <p style="color:var(--text-muted);font-size:.95rem;max-width:420px;margin:0 auto;">Le premier article sera genere lors de la prochaine execution du workflow GitHub Actions.</p>
-      </div>
     {{ end }}
 
   </div>
 </main>
+
+<script>
+  // Search functionality
+  const searchInput = document.getElementById('articleSearch');
+  const articleGrid = document.getElementById('articleGrid');
+  const articleTimeline = document.getElementById('articleTimeline');
+  const articleCount = document.getElementById('articleCount');
+
+  if (searchInput) {
+    searchInput.addEventListener('input', function(e) {
+      const query = e.target.value.toLowerCase();
+      const gridCards = articleGrid.querySelectorAll('.article-card');
+      const timelineItems = articleTimeline.querySelectorAll('.timeline-item');
+      let visible = 0;
+
+      gridCards.forEach(card => {
+        const title = card.dataset.title.toLowerCase();
+        if (title.includes(query) || query === '') {
+          card.style.display = '';
+          visible++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      timelineItems.forEach(item => {
+        const title = item.dataset.title.toLowerCase();
+        if (title.includes(query) || query === '') {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      // Update count
+      articleCount.textContent = visible + ' articles trouvés';
+    });
+  }
+
+  // View toggle functionality
+  const viewButtons = document.querySelectorAll('[data-view]');
+  viewButtons.forEach(btn => {
+    btn.addEventListener('click', function() {
+      const view = this.dataset.view;
+
+      // Update active button
+      document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      // Toggle views
+      if (view === 'grid') {
+        articleGrid.style.display = 'grid';
+        articleTimeline.style.display = 'none';
+      } else if (view === 'timeline') {
+        articleGrid.style.display = 'none';
+        articleTimeline.style.display = 'flex';
+        articleTimeline.style.flexDirection = 'column';
+      }
+    });
+  });
+
+  // Filter functionality
+  const filterButtons = document.querySelectorAll('[data-filter]');
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', function() {
+      const filter = this.dataset.filter;
+
+      // Update active button
+      document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      const cards = articleGrid.querySelectorAll('.article-card');
+      let visible = 0;
+
+      cards.forEach(card => {
+        let show = true;
+
+        if (filter === 'recent') {
+          // Show only last 10
+          show = visible < 10;
+        } else if (filter === 'popular') {
+          // Show featured first
+          show = card.classList.contains('featured') || visible < 5;
+        } else if (filter === 'clinical') {
+          // Show articles with 'étude', 'étude', 'recherche' in title
+          const title = card.dataset.title.toLowerCase();
+          show = title.includes('étude') || title.includes('recherche') || title.includes('study');
+        }
+
+        if (show) {
+          card.style.display = '';
+          visible++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      articleCount.textContent = visible + ' articles';
+    });
+  });
+
+  // Smooth animations
+  document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.article-card');
+    cards.forEach((card, index) => {
+      card.style.animation = `fadeInUp 0.5s ease-out ${index * 0.05}s both`;
+    });
+  });
+
+  // Add animation keyframes
+  const style = document.createElement('style');
+  style.textContent = `
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  `;
+  document.head.appendChild(style);
+</script>
 {{ end }}
