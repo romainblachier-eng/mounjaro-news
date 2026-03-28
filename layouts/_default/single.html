@@ -1,11 +1,11 @@
 {{ define "main" }}
 {{ $beehiiv := .Site.Params.beehiiv_embed_url }}
 
-<!-- ── Article Header ─────────────────────────────────────────── -->
+<!-- Article Header -->
 <div class="article-header">
   <div class="article-header-inner">
-    <a href="{{ "/" | relURL }}" class="back-link">← Retour · Back</a>
-    <div class="article-label">💊 Mounjaro · Tirzépatide</div>
+    <a href="{{ "/" | relURL }}" class="back-link">← Retour aux articles - Back to articles</a>
+    <div class="article-label">🔬 Mounjaro - Tirzepatide</div>
     <h1>{{ .Title }}</h1>
     <div class="article-meta">
       <span class="meta-chip">📅 {{ .Date.Format "2 January 2006" }}</span>
@@ -19,29 +19,25 @@
   </div>
 </div>
 
-<!-- ── Article Body ───────────────────────────────────────────── -->
+<!-- Article Body -->
 <div class="article-body">
 
-  <!-- Pub haut d'article -->
   {{ partial "ad-banner.html" . }}
 
-  <!-- Sélecteur de langue (mobile) -->
   <div class="lang-switcher" id="langSwitcher">
     <button class="lang-btn active" data-lang="fr" onclick="switchLang('fr')">
-      🇫🇷 Français
+      🇫🇷 Francais
     </button>
     <button class="lang-btn" data-lang="en" onclick="switchLang('en')">
       🇬🇧 English
     </button>
   </div>
 
-  <!-- Contenu bilingue côte à côte -->
   <div class="bilingual-grid">
 
-    <!-- FRANÇAIS -->
     <div class="lang-block" id="block-fr">
       <div class="lang-header">
-        <span class="lang-flag">🇫🇷</span> Version française
+        <span class="lang-flag">🇫🇷</span> Version francaise
       </div>
       <div class="lang-content">
         {{ with .Params.content_fr }}
@@ -52,7 +48,6 @@
       </div>
     </div>
 
-    <!-- ENGLISH -->
     <div class="lang-block" id="block-en">
       <div class="lang-header">
         <span class="lang-flag">🇬🇧</span> English version
@@ -68,17 +63,15 @@
 
   </div>
 
-  <!-- Pub bas d'article -->
   {{ partial "ad-banner.html" . }}
 
-  <!-- Newsletter -->
   <div class="newsletter-section">
     <div class="newsletter-inner">
       <div class="newsletter-icon">📬</div>
-      <h3>Recevez l'actu Mounjaro chaque matin</h3>
+      <h3>Votre veille Mounjaro, chaque matin</h3>
       <p>
-        Abonnez-vous gratuitement — résumé quotidien FR &amp; EN dans votre boîte mail.
-        <em>Subscribe free — daily FR &amp; EN digest in your inbox.</em>
+        Recevez gratuitement le resume quotidien FR &amp; EN des dernieres actualites tirzepatide.
+        <em>Subscribe free - daily bilingual digest in your inbox.</em>
       </p>
       {{ if $beehiiv }}
         <iframe src="{{ $beehiiv }}" class="beehiiv-embed" data-test-id="beehiiv-embed"
@@ -94,15 +87,12 @@
 function switchLang(lang) {
   const isMobile = window.innerWidth <= 700;
   if (!isMobile) return;
-
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);
   });
   document.getElementById('block-fr').style.display = (lang === 'fr') ? '' : 'none';
   document.getElementById('block-en').style.display = (lang === 'en') ? '' : 'none';
 }
-
-// On load: on mobile, hide EN by default
 if (window.innerWidth <= 700) {
   document.getElementById('block-en').style.display = 'none';
 }
