@@ -4,17 +4,17 @@
 {{ $beehiiv := .Site.Params.beehiiv_embed_url }}
 {{ $count := len $pages }}
 
-<!-- ── Hero Section ─────────────────────────────────────────── -->
+<!-- Hero Section -->
 <section class="hero">
   <div class="hero-inner">
     <div class="hero-badge">
       <span class="badge-dot"></span>
-      Mis à jour chaque jour · Updated daily
+      Mis a jour chaque jour - Updated daily
     </div>
-    <h1>Toute l'actu <em>Mounjaro</em><br>FR &amp; EN</h1>
+    <h1>L'actualite <em>Mounjaro</em><br>fiable et bilingue</h1>
     <p class="hero-sub">
-      Les dernières nouvelles sur la tirzépatide reformulées et traduites par IA chaque matin.
-      <em>The latest tirzepatide news — AI-reformulated every day.</em>
+      Veille quotidienne sur la tirzepatide : articles sources, reformules et traduits chaque matin.
+      <em>Daily tirzepatide intelligence - sourced, reformulated and translated.</em>
     </p>
     <div class="hero-stats">
       <div class="hero-stat">
@@ -22,75 +22,83 @@
         <span class="hero-stat-text">{{ $count }} articles</span>
       </div>
       <div class="hero-stat">
-        <span class="hero-stat-icon">🌐</span>
-        <span class="hero-stat-text">Français &amp; English</span>
+        <span class="hero-stat-icon">🇫🇷🇬🇧</span>
+        <span class="hero-stat-text">Bilingue FR / EN</span>
       </div>
       <div class="hero-stat">
-        <span class="hero-stat-icon">🤖</span>
-        <span class="hero-stat-text">Résumé par Claude</span>
+        <span class="hero-stat-icon">🔬</span>
+        <span class="hero-stat-text">Sources verifiees</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── Articles Main ────────────────────────────────────────── -->
+<!-- Trust Indicators -->
 <main class="page-main">
   <div class="page-inner">
 
+    <div class="trust-bar">
+      <div class="trust-item">
+        <span class="trust-icon">🏥</span>
+        Actualite sante
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">🔄</span>
+        Mise a jour quotidienne
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">📋</span>
+        Sources medicales citees
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">🌐</span>
+        Francais &amp; English
+      </div>
+    </div>
+
     {{ if $pages }}
 
-      <!-- Section Header -->
       <div class="section-header">
-        <p class="section-title">Derniers articles · Latest articles</p>
-        <span class="section-count">{{ $count }} articles</span>
+        <p class="section-title">Derniers articles - Latest articles</p>
+        <span class="section-count">{{ $count }} articles publies</span>
       </div>
 
-      <!-- Articles Grid -->
       <div class="article-grid">
         {{ range $i, $page := $pages }}
         <article class="article-card{{ if eq $i 0 }} featured{{ end }}">
           <div class="card-top-bar"></div>
           <div class="card-body">
-            <!-- Card Header -->
             <div class="card-header">
               {{ with $page.Params.source_name }}
               <span class="card-source">{{ . }}</span>
               {{ else }}
               <span class="card-source">Mounjaro News</span>
               {{ end }}
-              <span class="card-date">{{ $page.Date.Format "02/01/06" }}</span>
+              <span class="card-date">{{ $page.Date.Format "02/01/2006" }}</span>
             </div>
-
-            <!-- Card Title -->
             <h2><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
-
-            <!-- Card Excerpt -->
             <p class="card-excerpt">{{ $page.Params.summary_fr | default $page.Summary }}</p>
-
-            <!-- Card Footer -->
             <div class="card-footer">
               <div class="card-langs">
                 <span class="card-lang-badge">🇫🇷 FR</span>
                 <span class="card-lang-badge">🇬🇧 EN</span>
               </div>
-              <a href="{{ $page.Permalink }}" class="btn-read">Lire</a>
+              <a href="{{ $page.Permalink }}" class="btn-read">Lire l'article</a>
             </div>
           </div>
         </article>
         {{ end }}
       </div>
 
-      <!-- Advertisement -->
       {{ partial "ad-banner.html" . }}
 
-      <!-- Newsletter Section -->
       <div class="newsletter-section">
         <div class="newsletter-inner">
           <div class="newsletter-icon">📬</div>
-          <h3>Recevez l'actu Mounjaro chaque matin</h3>
+          <h3>Votre veille Mounjaro, chaque matin</h3>
           <p>
-            Abonnez-vous gratuitement — résumé quotidien FR &amp; EN dans votre boîte mail.
-            <em>Subscribe free — daily FR &amp; EN digest in your inbox.</em>
+            Recevez gratuitement le resume quotidien FR &amp; EN des dernieres actualites tirzepatide.
+            <em>Subscribe free - daily bilingual digest in your inbox.</em>
           </p>
           {{ if $beehiiv }}
             <iframe src="{{ $beehiiv }}" class="beehiiv-embed" data-test-id="beehiiv-embed"
@@ -102,9 +110,9 @@
 
     {{ else }}
       <div style="text-align:center;padding:120px 20px;">
-        <div style="font-size:4rem;margin-bottom:20px;">⏳</div>
-        <h2 style="font-size:1.4rem;font-weight:800;margin-bottom:14px;letter-spacing:-.01em;color:var(--text);">Le site se met en place…</h2>
-        <p style="color:var(--text-muted);font-size:.95rem;max-width:400px;margin:0 auto;">Le premier article sera généré lors de la prochaine exécution du workflow GitHub Actions.</p>
+        <div style="font-size:3.5rem;margin-bottom:20px;">🔬</div>
+        <h2 style="font-size:1.4rem;font-weight:800;margin-bottom:14px;letter-spacing:-.01em;color:var(--navy);">Le site se met en place...</h2>
+        <p style="color:var(--text-muted);font-size:.95rem;max-width:420px;margin:0 auto;">Le premier article sera genere lors de la prochaine execution du workflow GitHub Actions.</p>
       </div>
     {{ end }}
 
