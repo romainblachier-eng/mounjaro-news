@@ -1,5 +1,6 @@
 ---
 title: "Tirzepatide Effective Despite Weight-Inducing Meds"
+title_fr: "Le tirzépatide reste efficace malgré la prise de médicaments favorisant la prise de poids"
 date: 2026-04-03T08:00:59+01:00
 draft: false
 description: "Le Mounjaro conserve son efficacité même chez les patients prenant des médicaments qui favorisent la prise de poids."

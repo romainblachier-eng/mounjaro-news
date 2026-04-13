@@ -1,5 +1,6 @@
 ---
 title: "La nouvelle génération des médicaments contre l'obésité - QUB radio"
+title_fr: "La nouvelle génération des médicaments contre l'obésité - QUB radio"
 date: 2026-03-08T07:52:56+01:00
 draft: false
 description: "Le Mounjaro représente une avancée majeure dans le traitement de l'obésité et du diabète de type 2."

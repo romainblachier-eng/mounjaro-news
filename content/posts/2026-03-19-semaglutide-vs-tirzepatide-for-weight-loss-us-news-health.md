@@ -1,5 +1,6 @@
 ---
 title: "Semaglutide vs. Tirzepatide for Weight Loss - US News Health"
+title_fr: "Sémaglutide vs tirzépatide pour la perte de poids - US News Health"
 date: 2026-03-19T09:11:15+01:00
 draft: false
 description: "Le Mounjaro pourrait surpasser ses concurrents dans la lutte contre l'excès de poids."

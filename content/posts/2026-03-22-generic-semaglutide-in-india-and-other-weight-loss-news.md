@@ -1,5 +1,6 @@
 ---
 title: "Generic semaglutide in India, and other weight-loss news"
+title_fr: "Sémaglutide générique en Inde et autres actualités de la perte de poids"
 date: 2026-03-22T07:36:38+01:00
 draft: false
 description: "L'Inde lance sa version générique du semaglutide, ouvrant l'accès à des traitements contre l'obésité à des millions de patients."

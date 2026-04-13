@@ -1,5 +1,6 @@
 ---
 title: "What Happens When Patients Stop Taking GLP-1 Drugs? New Cleveland Clinic Study Reveals Real World Insights - Cleveland Clinic Newsroom"
+title_fr: "Que se passe-t-il quand les patients arrêtent les GLP-1 ? Une nouvelle étude de la Cleveland Clinic livre des données de vie réelle - Cleveland Clinic Newsroom"
 date: 2026-03-16T10:37:17+01:00
 draft: false
 description: "L'arrêt des médicaments GLP-1 provoque un retour rapide au poids initial, selon une nouvelle recherche."

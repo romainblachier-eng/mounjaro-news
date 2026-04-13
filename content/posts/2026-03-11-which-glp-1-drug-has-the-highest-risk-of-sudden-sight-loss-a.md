@@ -1,5 +1,6 @@
 ---
 title: "Which GLP-1 drug has the highest risk of sudden sight loss and ‘eye stroke’: study - New York Post"
+title_fr: "Quel GLP-1 présente le plus haut risque de perte soudaine de la vue et d’« AVC oculaire » : les résultats d’une étude - New York Post"
 date: 2026-03-11T08:06:24+01:00
 draft: false
 description: "Une nouvelle étude soulève des préoccupations concernant les risques oculaires liés aux médicaments GLP-1."

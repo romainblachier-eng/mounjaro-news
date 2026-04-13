@@ -1,5 +1,6 @@
 ---
 title: "Unlocking the Genetics of GLP-1 Medications: Why Your DNA Matters - 23andMe Blog"
+title_fr: "Décrypter la génétique des GLP-1 : pourquoi votre ADN compte - 23andMe Blog"
 date: 2026-04-11T07:48:06+01:00
 draft: false
 description: "Votre génétique pourrait expliquer pourquoi certaines personnes répondent mieux au Mounjaro que d'autres."

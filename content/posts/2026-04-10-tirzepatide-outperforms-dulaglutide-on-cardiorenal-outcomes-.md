@@ -1,5 +1,6 @@
 ---
 title: "Tirzepatide Outperforms Dulaglutide on Cardiorenal Outcomes in High-Risk Diabetes - The American Journal of Managed Care® (AJMC®)"
+title_fr: "Le tirzépatide surpasse le dulaglutide sur les issues cardiorénales dans le diabète à haut risque - The American Journal of Managed Care® (AJMC®)"
 date: 2026-04-10T08:20:27+01:00
 draft: false
 description: "Le Mounjaro surpasse un concurrent majeur dans la protection des reins et du cœur chez les diabétiques à risque élevé."

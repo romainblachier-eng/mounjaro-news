@@ -1,5 +1,6 @@
 ---
 title: "Compounded version of Eli Lilly GLP-1 may have impurity, company warns"
+title_fr: "Une version composée du GLP-1 d’Eli Lilly pourrait contenir une impureté, prévient le laboratoire"
 date: 2026-03-15T08:04:02+01:00
 draft: false
 description: "Une version contrefaite du médicament GLP-1 d'Eli Lilly circulerait avec des impuretés potentiellement dangereuses."

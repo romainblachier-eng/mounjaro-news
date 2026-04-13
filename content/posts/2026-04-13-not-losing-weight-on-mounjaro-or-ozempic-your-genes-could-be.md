@@ -1,5 +1,6 @@
 ---
 title: "Not losing weight on Mounjaro or Ozempic? Your genes could be the reason, says new study - The Indian Express"
+title_fr: "Vous ne maigrissez pas sous Mounjaro ou Ozempic ? Vos gènes pourraient en être la cause, selon une nouvelle étude - The Indian Express"
 date: 2026-04-13T08:59:51+01:00
 draft: false
 description: "Une nouvelle étude scientifique révèle que certaines personnes ne perdent pas de poids avec le Mounjaro, et la génétique pourrait en être responsable."

@@ -1,5 +1,6 @@
 ---
 title: "Why tirzepatide is better than semaglutide, GLP-1 medication guide - USA Today"
+title_fr: "Pourquoi le tirzépatide surpasse le sémaglutide : guide des médicaments GLP-1 - USA Today"
 date: 2026-03-27T07:58:43+01:00
 draft: false
 description: "Le tirzépatide surpasse le semaglutide en efficacité, selon les dernières données cliniques."

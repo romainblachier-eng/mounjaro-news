@@ -1,5 +1,6 @@
 ---
 title: "Traitement de l’obésité La chirurgie fait mieux que les médicaments tels que Wegovy et Mounjaro - UFC-Que Choisir"
+title_fr: "Traitement de l’obésité : la chirurgie fait mieux que les médicaments tels que Wegovy et Mounjaro - UFC-Que Choisir"
 date: 2026-03-27T07:58:59+01:00
 draft: false
 description: "La chirurgie bariatrique surpasse les injections minceur comme traitement de l'obésité."

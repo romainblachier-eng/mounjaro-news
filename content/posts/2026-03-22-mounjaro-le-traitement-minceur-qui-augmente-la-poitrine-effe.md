@@ -1,5 +1,6 @@
 ---
 title: "Mounjaro : le traitement minceur qui augmente la poitrine ? Effets secondaires et explications"
+title_fr: "Mounjaro : le traitement minceur qui augmente la poitrine ? Effets secondaires et explications"
 date: 2026-03-22T07:36:44+01:00
 draft: false
 description: "Le Mounjaro suscite des interrogations inattendues chez certains utilisateurs qui rapportent des changements physiques surprenants."

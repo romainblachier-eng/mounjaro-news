@@ -1,5 +1,6 @@
 ---
 title: "An open letter from Eli Lilly and Company warning of potential patient safety risks associated with tirzepatide compounded with vitamin B12 - Eli Lilly"
+title_fr: "Lettre ouverte d’Eli Lilly alertant sur des risques potentiels pour la sécurité des patients liés au tirzépatide composé avec de la vitamine B12 - Eli Lilly"
 date: 2026-03-13T09:05:23+01:00
 draft: false
 description: "Eli Lilly met en garde contre des pratiques dangereuses autour du Mounjaro."

@@ -1,5 +1,6 @@
 ---
 title: "Stopping GLP-1 Drugs May Raise Heart Risks"
+title_fr: "Arrêter les GLP-1 pourrait augmenter les risques cardiaques"
 date: 2026-03-24T07:52:30+01:00
 draft: false
 description: "L'arrêt des médicaments GLP-1 pourrait augmenter les risques cardiovasculaires, selon les observations cliniques récentes."

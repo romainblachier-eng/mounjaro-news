@@ -1,5 +1,6 @@
 ---
 title: "Stopping GLP-1 drugs can quickly erase cardiovascular benefits - Medical Xpress"
+title_fr: "Arrêter les GLP-1 peut effacer rapidement les bénéfices cardiovasculaires - Medical Xpress"
 date: 2026-03-19T09:11:23+01:00
 draft: false
 description: "L'arrêt des médicaments GLP-1 pourrait annuler rapidement leurs effets protecteurs sur le cœur."

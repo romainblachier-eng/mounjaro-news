@@ -1,5 +1,6 @@
 ---
 title: "Ozempic Weight Loss Success Varies by DNA - Neuroscience News"
+title_fr: "La perte de poids sous Ozempic varie selon l’ADN - Neuroscience News"
 date: 2026-04-09T08:19:24+01:00
 draft: false
 description: "La réponse au Mounjaro n'est pas identique pour tous : des chercheurs découvrent que nos gènes jouent un rôle clé."

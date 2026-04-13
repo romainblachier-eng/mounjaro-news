@@ -1,5 +1,6 @@
 ---
 title: "Mounjaro Cleared for Type 2 Diabetes in EU Children"
+title_fr: "Mounjaro autorisé chez l’enfant atteint de diabète de type 2 dans l’UE"
 date: 2026-03-10T08:05:48+01:00
 draft: false
 description: "Le Mounjaro devient le premier traitement injectable de sa classe approuvé chez les enfants européens atteints de diabète de type 2."

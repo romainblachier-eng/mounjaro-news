@@ -1,5 +1,6 @@
 ---
 title: "Allurion Announces Partnership to Offer Combination Therapy with Mounjaro® (tirzepatide) at Discounted Prices - Business Wire"
+title_fr: "Allurion annonce un partenariat pour proposer une thérapie combinée avec Mounjaro® (tirzépatide) à prix réduit - Business Wire"
 date: 2026-03-30T08:20:57+01:00
 draft: false
 description: "{

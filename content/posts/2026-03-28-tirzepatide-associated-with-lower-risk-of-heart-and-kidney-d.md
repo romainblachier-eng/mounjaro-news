@@ -1,5 +1,6 @@
 ---
 title: "Tirzepatide Associated with Lower Risk of Heart and Kidney Damage Compared to Dulaglutide in Patients with Type 2 Diabetes and Cardiovascular Disease - Cleveland Clinic Newsroom"
+title_fr: "Le tirzépatide associé à un moindre risque d’atteintes cardiaques et rénales que le dulaglutide chez les patients diabétiques de type 2 atteints de maladie cardiovasculaire - Cleveland Clinic Newsroom"
 date: 2026-03-28T21:48:05+01:00
 draft: false
 description: "Le Mounjaro pourrait mieux protéger le cœur et les reins que certains traitements concurrents."

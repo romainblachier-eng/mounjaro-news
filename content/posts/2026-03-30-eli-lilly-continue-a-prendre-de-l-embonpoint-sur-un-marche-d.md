@@ -1,5 +1,6 @@
 ---
 title: "Eli Lilly continue à prendre de l'embonpoint, sur un marché de plus en plus concurrentiel - Les Echos"
+title_fr: "Eli Lilly continue à prendre de l'embonpoint, sur un marché de plus en plus concurrentiel - Les Echos"
 date: 2026-03-30T08:21:06+01:00
 draft: false
 description: "Le succès du Mounjaro dépasse les attentes initiales, mais la concurrence s'intensifie sur le marché des médicaments pour maigrir."

@@ -1,5 +1,6 @@
 ---
 title: "Drugmaker Aspen targets Mounjaro approval in sub-Saharan Africa this year"
+title_fr: "Le laboratoire Aspen vise l’approbation du Mounjaro en Afrique subsaharienne cette année"
 date: 2026-03-05T08:05:24+01:00
 draft: false
 description: "Le laboratoire Aspen mise sur une arrivée du Mounjaro en Afrique subsaharienne dès cette année."

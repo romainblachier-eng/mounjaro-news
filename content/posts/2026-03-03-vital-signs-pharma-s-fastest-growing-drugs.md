@@ -1,5 +1,6 @@
 ---
 title: "Vital Signs: Pharma's fastest growing drugs"
+title_fr: "Signes vitaux : les médicaments qui progressent le plus vite dans la pharma"
 date: 2026-03-03T08:05:46+01:00
 draft: false
 description: "Le tirzépatide, commercialisé sous le nom de Mounjaro, fait partie des médicaments qui connaissent la croissance la plus rapide du marché pharmaceutique mondial"

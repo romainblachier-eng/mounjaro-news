@@ -1,5 +1,6 @@
 ---
 title: "Keytruda Hangs On to Best Seller Crown as GLP-1s Gain Ground"
+title_fr: "Keytruda conserve sa couronne de meilleure vente, mais les GLP-1 gagnent du terrain"
 date: 2026-03-04T08:02:55+01:00
 draft: false
 description: "Malgré l'émergence spectaculaire des médicaments GLP-1, l'immunothérapie Keytruda conserve sa place de best-seller mondial."

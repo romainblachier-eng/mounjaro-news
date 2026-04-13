@@ -1,5 +1,6 @@
 ---
 title: "\"C'est dramatique\" : ce médicament pris par des millions de personnes fait grossir dès qu'on l'arrête - Journal des Femmes Santé"
+title_fr: "\"C'est dramatique\" : ce médicament pris par des millions de personnes fait grossir dès qu'on l'arrête - Journal des Femmes Santé"
 date: 2026-03-01T00:18:34+01:00
 draft: false
 description: "Le Mounjaro suscite des inquiétudes croissantes chez les patients qui cessent son utilisation."

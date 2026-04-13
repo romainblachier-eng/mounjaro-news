@@ -1,5 +1,6 @@
 ---
 title: "Cardiovascular Outcomes with Tirzepatide versus Dulaglutide in Type 2 Diabetes"
+title_fr: "Résultats cardiovasculaires du tirzépatide versus dulaglutide dans le diabète de type 2"
 date: 2026-04-01T08:14:44+01:00
 draft: false
 description: "Le Mounjaro offre une protection cardiaque comparable à un concurrent direct dans le diabète de type 2."

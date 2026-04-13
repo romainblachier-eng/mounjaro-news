@@ -1,5 +1,6 @@
 ---
 title: "MOUNJARO : nouveau médicament injectable indiqué dans le traitement du diabète de type 2 et de l'obésité"
+title_fr: "MOUNJARO : nouveau médicament injectable indiqué dans le traitement du diabète de type 2 et de l'obésité"
 date: 2026-03-01T18:17:59+01:00
 draft: false
 description: "Le Mounjaro représente une avancée thérapeutique significative dans la prise en charge de deux conditions métaboliques majeures."

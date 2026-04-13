@@ -1,5 +1,6 @@
 ---
 title: "Cheaper generics capture 20% of weight-loss mkt - The Times of India"
+title_fr: "Les génériques moins chers captent 20 % du marché de la perte de poids - The Times of India"
 date: 2026-04-13T09:00:00+01:00
 draft: false
 description: "Les médicaments génériques moins chers gagnent rapidement du terrain sur le marché des traitements anti-obésité."

@@ -1,5 +1,6 @@
 ---
 title: "Weight Loss Drugs in India: Ozempic and Wegovy Alternatives, Explained - Open Magazine"
+title_fr: "Médicaments de perte de poids en Inde : les alternatives à Ozempic et Wegovy expliquées - Open Magazine"
 date: 2026-03-22T07:36:29+01:00
 draft: false
 description: "Le Mounjaro s'impose progressivement en Inde comme une alternative aux médicaments minceur occidentaux largement médiatisés."

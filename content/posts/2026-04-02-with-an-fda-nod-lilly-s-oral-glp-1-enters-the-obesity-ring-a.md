@@ -1,5 +1,6 @@
 ---
 title: "With an FDA nod, Lilly's oral GLP-1 enters the obesity ring as Foundayo - FirstWord Pharma"
+title_fr: "Feu vert de la FDA : le GLP-1 oral de Lilly entre dans l’arène de l’obésité sous le nom Foundayo - FirstWord Pharma"
 date: 2026-04-02T08:05:36+01:00
 draft: false
 description: "Le laboratoire Eli Lilly vient de franchir une étape majeure en obtenant l'approbation de la FDA pour son traitement oral contre l'obésité."

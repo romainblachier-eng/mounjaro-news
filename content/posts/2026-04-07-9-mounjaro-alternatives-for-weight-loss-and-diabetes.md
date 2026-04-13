@@ -1,5 +1,6 @@
 ---
 title: "9 Mounjaro Alternatives for Weight Loss and Diabetes"
+title_fr: "9 alternatives au Mounjaro pour la perte de poids et le diabète"
 date: 2026-04-07T08:11:39+01:00
 draft: false
 description: "Le Mounjaro n'est pas l'unique option pour maigrir ou traiter le diabète de type 2."

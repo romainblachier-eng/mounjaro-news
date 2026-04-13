@@ -1,5 +1,6 @@
 ---
 title: "Improved Heart and Kidney Outcomes for Type 1 Diabetes Patients Taking GLP-1 Weight Loss Drugs - Johns Hopkins Bloomberg School of Public Health"
+title_fr: "Meilleure santé cardiaque et rénale chez les patients atteints de diabète de type 1 sous GLP-1 - Johns Hopkins Bloomberg School of Public Health"
 date: 2026-03-26T08:00:48+01:00
 draft: false
 description: "Les médicaments contre l'obésité pourraient transformer la prise en charge du diabète de type 1."

@@ -81,7 +81,8 @@
       <!-- Grid View -->
       <div class="article-grid" id="articleGrid">
         {{ range $i, $page := $pages }}
-        <article class="article-card{{ if eq $i 0 }} featured{{ end }}" data-title="{{ .Title }}" data-date="{{ .Date.Format "2006-01-02" }}">
+        {{ $displayTitle := $page.Params.title_fr | default $page.Title }}
+        <article class="article-card{{ if eq $i 0 }} featured{{ end }}" data-title="{{ $displayTitle }}" data-date="{{ .Date.Format "2006-01-02" }}">
           <div class="card-top-bar"></div>
           <div class="card-body">
             <div class="card-header">
@@ -92,7 +93,7 @@
               {{ end }}
               <span class="card-date">{{ $page.Date.Format "02/01/2006" }}</span>
             </div>
-            <h2><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
+            <h2><a href="{{ $page.Permalink }}">{{ $displayTitle }}</a></h2>
             <p class="card-excerpt">{{ $page.Params.summary_fr | default $page.Summary }}</p>
             <div class="card-footer">
               <div class="card-langs">
@@ -109,10 +110,11 @@
       <!-- Timeline View (Hidden by default) -->
       <div class="article-timeline" id="articleTimeline" style="display: none;">
         {{ range $i, $page := $pages }}
-        <div class="timeline-item" data-title="{{ .Title }}" data-date="{{ .Date.Format "2006-01-02" }}">
+        {{ $displayTitle := $page.Params.title_fr | default $page.Title }}
+        <div class="timeline-item" data-title="{{ $displayTitle }}" data-date="{{ .Date.Format "2006-01-02" }}">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <h3><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h3>
+            <h3><a href="{{ $page.Permalink }}">{{ $displayTitle }}</a></h3>
             <div class="timeline-meta">
               {{ with $page.Params.source_name }}{{ . }} • {{ end }}
               {{ $page.Date.Format "02 Jan 2006" }}

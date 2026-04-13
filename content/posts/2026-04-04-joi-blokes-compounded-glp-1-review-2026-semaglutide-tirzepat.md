@@ -1,5 +1,6 @@
 ---
 title: "Joi + Blokes Compounded GLP-1 Review 2026: Semaglutide, Tirzepatide, Pricing, and Everything to Verify Before You Enroll"
+title_fr: "Revue 2026 des GLP-1 composés Joi + Blokes : sémaglutide, tirzépatide, prix et tout ce qu’il faut vérifier avant de s’inscrire"
 date: 2026-04-04T07:47:30+01:00
 draft: false
 description: "Le marché des médicaments pour maigrir explose, mais tous ne se valent pas."

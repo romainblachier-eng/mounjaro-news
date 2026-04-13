@@ -1,5 +1,6 @@
 ---
 title: "Wegovy vs. Mounjaro: 8 Important Differences"
+title_fr: "Wegovy vs Mounjaro : 8 différences importantes"
 date: 2026-03-01T17:56:23+01:00
 draft: false
 description: "Le Mounjaro et le Wegovy sont deux médicaments distincts malgré leur utilisation dans la gestion du poids."

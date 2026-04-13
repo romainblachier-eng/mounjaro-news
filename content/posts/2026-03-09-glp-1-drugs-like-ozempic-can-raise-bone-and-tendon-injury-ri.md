@@ -1,5 +1,6 @@
 ---
 title: "GLP-1 drugs like Ozempic can raise bone and tendon injury risk, study suggests - The Detroit News"
+title_fr: "Les GLP-1 comme l’Ozempic pourraient accroître le risque de blessures osseuses et tendineuses, selon une étude - The Detroit News"
 date: 2026-03-09T05:18:14+01:00
 draft: false
 description: "Les médicaments contre le diabète pourraient fragiliser nos os et tendons, selon une nouvelle alerte scientifique."

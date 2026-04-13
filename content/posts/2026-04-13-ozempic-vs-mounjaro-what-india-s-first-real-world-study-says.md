@@ -1,5 +1,6 @@
 ---
 title: "Ozempic vs Mounjaro: What India’s first real-world study says, and why the timing matters - The South First"
+title_fr: "Ozempic vs Mounjaro : ce que révèle la première étude indienne en vie réelle, et pourquoi le moment est crucial - The South First"
 date: 2026-04-13T08:59:43+01:00
 draft: false
 description: "Une première étude indienne compare deux médicaments révolutionnaires pour maigrir et contrôler le diabète."

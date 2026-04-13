@@ -1,5 +1,6 @@
 ---
 title: "Tirzepatide as Compared with Semaglutide for the Treatment of Obesity | New England Journal of Medicine - The New England Journal of Medicine"
+title_fr: "Tirzépatide versus sémaglutide dans le traitement de l’obésité - New England Journal of Medicine"
 date: 2026-03-03T08:05:53+01:00
 draft: false
 description: "Le tirzépatide surpasse le semaglutide dans la réduction du poids corporel chez les personnes atteintes d'obésité."

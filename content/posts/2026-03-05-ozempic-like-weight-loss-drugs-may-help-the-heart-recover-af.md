@@ -1,5 +1,6 @@
 ---
 title: "Ozempic-like weight loss drugs may help the heart recover after a heart attack"
+title_fr: "Les médicaments type Ozempic pourraient aider le cœur à récupérer après un infarctus"
 date: 2026-03-05T08:05:16+01:00
 draft: false
 description: "Les médicaments de la classe des GLP-1, comme le Mounjaro, pourraient accélérer la récupération cardiaque après un infarctus."

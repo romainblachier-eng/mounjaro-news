@@ -1,5 +1,6 @@
 ---
 title: "Pharma 50: Keytruda holds the top brand slot, but tirzepatide and semaglutide have already passed it at the molecule level in FY2025"
+title_fr: "Pharma 50 : Keytruda reste la marque n°1, mais tirzépatide et sémaglutide l’ont déjà dépassée au niveau de la molécule en 2025"
 date: 2026-04-11T07:47:58+01:00
 draft: false
 description: "Le tirzépatide et la sémaglutide ont dépassé les blockbusters oncologiques en termes de ventes mondiales."

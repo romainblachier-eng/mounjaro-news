@@ -1,5 +1,6 @@
 ---
 title: "Lilly rewards CEO David Ricks with $36.7M pay package for 2025, fueled by GLP-1 success - Fierce Pharma"
+title_fr: "Lilly octroie à son PDG David Ricks une rémunération de 36,7 M$ pour 2025, portée par le succès des GLP-1 - Fierce Pharma"
 date: 2026-03-10T08:05:40+01:00
 draft: false
 description: "Le succès du Mounjaro propulse les récompenses des dirigeants de Lilly à des sommets."

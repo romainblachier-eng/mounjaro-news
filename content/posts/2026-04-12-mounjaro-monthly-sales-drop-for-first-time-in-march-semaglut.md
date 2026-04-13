@@ -1,5 +1,6 @@
 ---
 title: "Mounjaro monthly sales drop for first time in March, semaglutide gains volume"
+title_fr: "Les ventes mensuelles de Mounjaro reculent pour la première fois en mars, le sémaglutide gagne en volume"
 date: 2026-04-12T08:01:42+01:00
 draft: false
 description: "Les ventes du Mounjaro connaissent un premier recul depuis son lancement commercial."

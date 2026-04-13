@@ -1,5 +1,6 @@
 ---
 title: "Early use of tirzepatide after heart attack or stroke linked to key cardiovascular benefits - Cardiovascular Business"
+title_fr: "Administrer tôt le tirzépatide après un infarctus ou un AVC apporte des bénéfices cardiovasculaires majeurs - Cardiovascular Business"
 date: 2026-03-21T07:56:00+01:00
 draft: false
 description: "Le tirzépatide pourrait transformer la prise en charge post-urgence cardiaque."

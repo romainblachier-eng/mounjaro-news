@@ -1,5 +1,6 @@
 ---
 title: "Un médicament contre l’obésité permet de perdre jusqu’à 20 % du poids, mais son arrêt inquiète les médecins - Science et vie"
+title_fr: "Un médicament contre l’obésité permet de perdre jusqu’à 20 % du poids, mais son arrêt inquiète les médecins - Science et vie"
 date: 2026-03-17T10:10:48+01:00
 draft: false
 description: "Le tirzépatide offre des résultats impressionnants contre l'obésité, mais pose une question majeure : que se passe-t-il à l'arrêt du traitement ? Ce médicament,"

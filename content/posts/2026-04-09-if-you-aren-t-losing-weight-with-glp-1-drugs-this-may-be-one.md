@@ -1,5 +1,6 @@
 ---
 title: "If you aren’t losing weight with GLP-1 drugs, this may be one reason why - The Boston Globe"
+title_fr: "Vous ne perdez pas de poids avec les GLP-1 ? Voici une explication possible - The Boston Globe"
 date: 2026-04-09T08:19:16+01:00
 draft: false
 description: "Certains patients prenant des médicaments GLP-1 comme le Mounjaro constatent que leur perte de poids stagne, et la raison pourrait vous surprendre."

@@ -1,5 +1,6 @@
 ---
 title: "Vanessa Williams Has Had A Striking Transformation Thanks To Mounjaro"
+title_fr: "La transformation spectaculaire de Vanessa Williams grâce au Mounjaro"
 date: 2026-03-28T21:48:13+01:00
 draft: false
 description: "Le Mounjaro fait parler de lui au-delà des cabinets médicaux."

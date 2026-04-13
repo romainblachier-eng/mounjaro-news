@@ -1,5 +1,6 @@
 ---
 title: "Beyond the weight-loss injection: How this 44-year-old balances Mounjaro with diet, exercise and sleep - The Indian Express"
+title_fr: "Au-delà de l’injection minceur : comment cette femme de 44 ans combine Mounjaro, alimentation, exercice et sommeil - The Indian Express"
 date: 2026-03-23T08:01:02+01:00
 draft: false
 description: "Le Mounjaro n'est pas une baguette magique pour maigrir, et une femme de 44 ans l'a bien compris."

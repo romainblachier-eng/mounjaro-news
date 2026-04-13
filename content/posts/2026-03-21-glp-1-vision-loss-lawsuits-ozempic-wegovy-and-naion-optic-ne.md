@@ -1,5 +1,6 @@
 ---
 title: "GLP-1 Vision Loss Lawsuits: Ozempic, Wegovy, and NAION Optic Nerve Injury Claims - JD Supra"
+title_fr: "Actions en justice GLP-1 et perte de vision : Ozempic, Wegovy et les plaintes pour NAION - JD Supra"
 date: 2026-03-21T07:55:44+01:00
 draft: false
 description: "Des cas de perte de vision liée aux médicaments GLP-1 soulèvent des questions de sécurité."

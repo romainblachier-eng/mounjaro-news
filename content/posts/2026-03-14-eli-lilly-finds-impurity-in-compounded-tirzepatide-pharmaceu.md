@@ -1,5 +1,6 @@
 ---
 title: "Eli Lilly finds impurity in compounded tirzepatide - Pharmaceutical Technology"
+title_fr: "Eli Lilly détecte une impureté dans le tirzépatide composé - Pharmaceutical Technology"
 date: 2026-03-14T07:58:54+01:00
 draft: false
 description: "Eli Lilly a détecté une impureté dans certains lots de tirzépatide préparés en pharmacies."

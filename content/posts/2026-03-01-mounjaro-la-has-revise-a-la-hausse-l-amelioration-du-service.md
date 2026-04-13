@@ -1,5 +1,6 @@
 ---
 title: "Mounjaro : la HAS révise à la hausse l’amélioration du service médical rendu dans l’obésité"
+title_fr: "Mounjaro : la HAS révise à la hausse l’amélioration du service médical rendu dans l’obésité"
 date: 2026-03-01T00:18:42+01:00
 draft: false
 description: "La Haute Autorité de Santé reconnaît désormais une efficacité renforcée du Mounjaro contre l'obésité."

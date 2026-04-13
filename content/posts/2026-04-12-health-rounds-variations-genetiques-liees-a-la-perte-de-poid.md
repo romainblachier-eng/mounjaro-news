@@ -1,5 +1,6 @@
 ---
 title: "Health Rounds : Variations génétiques liées à la perte de poids et aux effets secondaires des médicaments GLP-"
+title_fr: "Health Rounds : variations génétiques liées à la perte de poids et aux effets secondaires des médicaments GLP-1"
 date: 2026-04-12T08:01:48+01:00
 draft: false
 description: "Pourquoi certaines personnes maigrissent davantage avec les médicaments GLP-1 que d'autres ? La réponse pourrait résider dans nos gènes."

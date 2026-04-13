@@ -1,5 +1,6 @@
 ---
 title: "Que se passe-t-il lorsqu'on arrête les GLP-1 ?"
+title_fr: "Que se passe-t-il lorsqu'on arrête les GLP-1 ?"
 date: 2026-03-01T07:54:02+01:00
 draft: false
 description: "L'arrêt des médicaments GLP-1 comme le Mounjaro peut entraîner une reprise rapide du poids perdu."

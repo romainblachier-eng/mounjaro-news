@@ -1,5 +1,6 @@
 ---
 title: "Opinion | Taking Ozempic (or other GLP-1 drugs) isn’t cheating"
+title_fr: "Tribune | Prendre de l’Ozempic (ou un autre GLP-1) n’est pas tricher"
 date: 2026-03-28T21:48:20+01:00
 draft: false
 description: "{

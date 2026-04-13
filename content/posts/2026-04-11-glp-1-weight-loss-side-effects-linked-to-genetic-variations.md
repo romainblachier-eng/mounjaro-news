@@ -1,5 +1,6 @@
 ---
 title: "GLP-1 weight loss, side effects linked to genetic variations"
+title_fr: "Perte de poids et effets secondaires des GLP-1 liés à des variations génétiques"
 date: 2026-04-11T07:47:49+01:00
 draft: false
 description: "La réponse de chacun au Mounjaro varie considérablement selon son profil génétique."

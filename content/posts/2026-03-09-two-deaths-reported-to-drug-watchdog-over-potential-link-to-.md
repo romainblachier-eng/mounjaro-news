@@ -1,5 +1,6 @@
 ---
 title: "Two deaths reported to drug watchdog over potential link to weight-loss jabs"
+title_fr: "Deux décès signalés aux autorités sanitaires en lien possible avec des injections minceur"
 date: 2026-03-09T09:11:00+01:00
 draft: false
 description: "Le Mounjaro suscite des inquiétudes après deux décès signalés aux autorités sanitaires."

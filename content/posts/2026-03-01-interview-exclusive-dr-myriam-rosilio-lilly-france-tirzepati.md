@@ -1,5 +1,6 @@
 ---
 title: "Interview exclusive — Dr Myriam Rosilio (Lilly France) : « Tirzépatide, des résultats inédits sur le cœur »"
+title_fr: "Interview exclusive — Dr Myriam Rosilio (Lilly France) : « Tirzépatide, des résultats inédits sur le cœur »"
 date: 2026-03-01T18:18:06+01:00
 draft: false
 description: "Le Mounjaro pourrait offrir des bénéfices cardiovasculaires jamais observés auparavant."

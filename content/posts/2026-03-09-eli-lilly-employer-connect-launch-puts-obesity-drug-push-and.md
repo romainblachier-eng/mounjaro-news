@@ -1,5 +1,6 @@
 ---
 title: "Eli Lilly Employer Connect Launch Puts Obesity Drug Push And Rich Valuation Under The Microscope"
+title_fr: "Le lancement d’Eli Lilly Employer Connect place la stratégie obésité et la valorisation du groupe sous les projecteurs"
 date: 2026-03-09T05:18:21+01:00
 draft: false
 description: "Eli Lilly intensifie sa stratégie commerciale autour du Mounjaro, son médicament vedette contre l'obésité."

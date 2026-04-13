@@ -1,5 +1,6 @@
 ---
 title: "Why Did Eli Lilly Stock Slide 6% Despite Strong GLP-1 Momentum?"
+title_fr: "Pourquoi l’action Eli Lilly a-t-elle chuté de 6 % malgré une forte dynamique des GLP-1 ?"
 date: 2026-03-19T09:11:31+01:00
 draft: false
 description: "Malgré le succès croissant des médicaments GLP-1, l'action d'Eli Lilly a connu une baisse inattendue."

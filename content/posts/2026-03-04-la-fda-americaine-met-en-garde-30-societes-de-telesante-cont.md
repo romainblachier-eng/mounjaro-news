@@ -1,5 +1,6 @@
 ---
 title: "La FDA américaine met en garde 30 sociétés de télésanté contre des publicités trompeuses pour des médicaments"
+title_fr: "La FDA américaine met en garde 30 sociétés de télésanté contre des publicités trompeuses pour des médicaments"
 date: 2026-03-04T08:03:11+01:00
 draft: false
 description: "La régulation des publicités pour les médicaments amaigrissants se durcit aux États-Unis."

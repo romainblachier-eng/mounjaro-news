@@ -1,5 +1,6 @@
 ---
 title: "GLP-1 agonists could be a global game-changer, but need to be accessible and affordable"
+title_fr: "Les agonistes GLP-1 pourraient tout changer à l’échelle mondiale, à condition d’être accessibles et abordables"
 date: 2026-03-28T07:43:00+01:00
 draft: false
 description: "Les médicaments comme le Mounjaro pourraient transformer la santé mondiale, mais à une condition : être accessibles à tous."

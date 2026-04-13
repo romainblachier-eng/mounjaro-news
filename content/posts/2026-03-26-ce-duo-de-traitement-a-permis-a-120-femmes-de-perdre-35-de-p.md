@@ -1,5 +1,6 @@
 ---
 title: "Ce duo de traitement a permis à 120 femmes de perdre 35 % de poids en plus à la ménopause - Top Santé"
+title_fr: "Ce duo de traitement a permis à 120 femmes de perdre 35 % de poids en plus à la ménopause - Top Santé"
 date: 2026-03-26T08:01:06+01:00
 draft: false
 description: "Le Mounjaro pourrait transformer la prise en charge du surpoids chez les femmes ménopausées."

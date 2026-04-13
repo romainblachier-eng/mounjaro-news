@@ -1,5 +1,6 @@
 ---
 title: "Heart Benefits From GLP-1 Drugs Fade After Stopping, Study Finds - U.S. News & World Report"
+title_fr: "Les bénéfices cardiaques des GLP-1 s’estompent après l’arrêt, selon une étude - U.S. News & World Report"
 date: 2026-03-21T07:55:52+01:00
 draft: false
 description: "Les bénéfices cardiovasculaires des médicaments GLP-1 disparaissent rapidement après l'arrêt du traitement."

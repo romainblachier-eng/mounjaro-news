@@ -1,5 +1,6 @@
 ---
 title: "Evidence, excitement: In the moment with a GLP-1 expert - UW Medicine | Newsroom"
+title_fr: "Preuves et enthousiasme : entretien avec une experte des GLP-1 - UW Medicine | Newsroom"
 date: 2026-04-10T08:20:37+01:00
 draft: false
 description: "Le tirzépatide ouvre de nouvelles perspectives dans le traitement de l'obésité et du diabète de type 2."

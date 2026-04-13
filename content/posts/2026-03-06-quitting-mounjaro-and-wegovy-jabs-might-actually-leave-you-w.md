@@ -1,5 +1,6 @@
 ---
 title: "Quitting Mounjaro and Wegovy jabs might actually leave you worse off than before"
+title_fr: "Arrêter les injections de Mounjaro et Wegovy pourrait vous laisser dans un état pire qu’avant"
 date: 2026-03-06T08:02:15+01:00
 draft: false
 description: "Arrêter le Mounjaro ou le Wegovy pourrait annuler les bénéfices obtenus."

@@ -1,5 +1,6 @@
 ---
 title: "Allurion Announces Partnership to Offer Combination Therapy with Mounjaro® (tirzepatide) at Discounted Prices - Yahoo Finance"
+title_fr: "Allurion annonce un partenariat pour proposer une thérapie combinée avec Mounjaro® (tirzépatide) à prix réduit - Yahoo Finance"
 date: 2026-03-02T09:34:40+01:00
 draft: false
 description: "Le Mounjaro pourrait bientôt être proposé à des tarifs plus accessibles grâce à un partenariat stratégique."

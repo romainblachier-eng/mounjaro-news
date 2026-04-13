@@ -1,5 +1,6 @@
 ---
 title: "Lilly Says Compounded Tirzepatide With Added Vitamin B12 Contains Impurities. Is It Safe? - Everyday Health"
+title_fr: "Selon Lilly, le tirzépatide composé avec de la vitamine B12 contient des impuretés. Est-ce sûr ? - Everyday Health"
 date: 2026-03-14T07:59:01+01:00
 draft: false
 description: "Le laboratoire Eli Lilly tire la sonnette d'alarme : certaines versions du Mounjaro préparées en pharmacie contiendraient des impuretés dangereuses."

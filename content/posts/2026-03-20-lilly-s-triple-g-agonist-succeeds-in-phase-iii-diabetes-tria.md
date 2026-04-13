@@ -1,5 +1,6 @@
 ---
 title: "Lilly’s triple G agonist succeeds in Phase III diabetes trial - Clinical Trials Arena"
+title_fr: "L’agoniste triple G de Lilly réussit son essai de phase III dans le diabète - Clinical Trials Arena"
 date: 2026-03-20T09:05:32+01:00
 draft: false
 description: "Le Mounjaro franchit une étape décisive dans son développement."

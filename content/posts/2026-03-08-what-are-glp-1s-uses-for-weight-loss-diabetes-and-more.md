@@ -1,5 +1,6 @@
 ---
 title: "What Are GLP-1s? Uses for Weight Loss, Diabetes, and More"
+title_fr: "Les GLP-1, c’est quoi ? Usages dans la perte de poids, le diabète et au-delà"
 date: 2026-03-08T07:52:41+01:00
 draft: false
 description: "Les agonistes du GLP-1 révolutionnent le traitement du diabète et de l'obésité."

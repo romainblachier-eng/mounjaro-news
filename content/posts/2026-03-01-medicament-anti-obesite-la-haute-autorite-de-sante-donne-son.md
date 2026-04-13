@@ -1,5 +1,6 @@
 ---
 title: "Médicament anti-obésité : la Haute autorité de santé donne son feu vert au remboursement de Mounjaro - Le Figaro Santé"
+title_fr: "Médicament anti-obésité : la Haute Autorité de santé donne son feu vert au remboursement de Mounjaro - Le Figaro Santé"
 date: 2026-03-01T00:18:26+01:00
 draft: false
 description: "La Haute autorité de santé française franchit une étape majeure en autorisant le remboursement du Mounjaro, un médicament révolutionnaire contre l'obésité."

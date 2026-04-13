@@ -1,5 +1,6 @@
 ---
 title: "Eli Lilly and Company (LLY) Expands Zepbound Access as Pricing Reforms Boost Long-Term Growth Outlook - Yahoo! Finance Canada"
+title_fr: "Eli Lilly (LLY) élargit l’accès à Zepbound alors que les réformes tarifaires renforcent ses perspectives de croissance - Yahoo! Finance Canada"
 date: 2026-03-23T08:01:10+01:00
 draft: false
 description: "Eli Lilly élargit l'accès à son médicament vedette face aux réformes tarifaires."

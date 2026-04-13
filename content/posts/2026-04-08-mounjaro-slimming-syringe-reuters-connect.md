@@ -1,5 +1,6 @@
 ---
 title: "Mounjaro slimming syringe - Reuters Connect"
+title_fr: "Seringue minceur Mounjaro - Reuters Connect"
 date: 2026-04-08T08:12:01+01:00
 draft: false
 description: "Le Mounjaro, initialement développé pour le diabète, suscite un intérêt croissant au-delà de son indication originale."

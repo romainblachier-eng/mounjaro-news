@@ -1,5 +1,6 @@
 ---
 title: "Ozempic, Wegovy & Similar Drugs: What the Lawsuits Are About - The National Law Review"
+title_fr: "Ozempic, Wegovy et médicaments similaires : ce que révèlent les actions en justice - The National Law Review"
 date: 2026-03-07T07:51:28+01:00
 draft: false
 description: "Les médicaments GLP-1 comme l'Ozempic et le Wegovy font face à des poursuites judiciaires croissantes aux États-Unis."

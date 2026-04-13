@@ -124,9 +124,9 @@ def fetch_article_content(url: str) -> str:
 # 4. Génération bilingue avec Claude
 # ──────────────────────────────────────────────
 
-def generate_bilingual_content(article: dict, content: str, api_key: str) -> tuple[str, str]:
+def generate_bilingual_content(article: dict, content: str, api_key: str) -> tuple[str, str, str]:
     """
-    Retourne (resume_fr, resume_en) — deux reformulations indépendantes.
+    Retourne (resume_fr, resume_en, titre_fr).
     """
     import anthropic
 
@@ -135,16 +135,18 @@ def generate_bilingual_content(article: dict, content: str, api_key: str) -> tup
 
     prompt = f"""Tu es un journaliste de santé spécialisé dans les médicaments GLP-1.
 On te donne un article sur le Mounjaro (tirzépatide).
-Produis UNIQUEMENT un JSON avec deux champs :
+Produis UNIQUEMENT un JSON avec trois champs :
+- "title_fr" : traduction/adaptation en français du titre, naturelle et journalistique (garder le nom du média à la fin si présent, ex. "- The Guardian")
 - "fr" : reformulation en français (200-250 mots), claire, factuelle, accessible au grand public
 - "en" : reformulation en anglais (200-250 mots), clear, factual, accessible
 
 Règles :
-- Ne jamais reproduire le texte original mot pour mot
+- Ne jamais reproduire le texte original mot pour mot (sauf noms propres)
 - Pas de conseil médical, pas de recommandation de traitement
 - Si l'info est scientifique, la vulgariser
 - Commencer "fr" par une phrase d'accroche forte
 - Commencer "en" par a strong hook sentence
+- Si le titre est déjà en français, recopie-le tel quel dans "title_fr"
 
 Titre de l'article : {article['title']}
 Source : {article['source_name']}
@@ -155,7 +157,7 @@ Réponds UNIQUEMENT avec le JSON, sans markdown ni commentaire."""
     try:
         message = client.messages.create(
             model="claude-haiku-4-5-20251001",
-            max_tokens=700,
+            max_tokens=900,
             messages=[{"role": "user", "content": prompt}],
         )
         raw = message.content[0].text.strip()
@@ -163,13 +165,13 @@ Réponds UNIQUEMENT avec le JSON, sans markdown ni commentaire."""
         raw = re.sub(r'^```[a-z]*\n?', '', raw)
         raw = re.sub(r'\n?```$',       '', raw)
         data = json.loads(raw)
-        return data.get("fr", ""), data.get("en", "")
+        return data.get("fr", ""), data.get("en", ""), data.get("title_fr", article['title'])
     except json.JSONDecodeError:
         # Fallback si JSON malformé
-        return raw[:500], ""
+        return raw[:500], "", article['title']
     except Exception as e:
         print(f"    ⚠️  Erreur Claude : {e}")
-        return "", ""
+        return "", "", article['title']
 
 
 # ──────────────────────────────────────────────
@@ -194,7 +196,7 @@ def escape_yaml(s: str) -> str:
     return s
 
 
-def create_hugo_article(article: dict, fr_content: str, en_content: str) -> bool:
+def create_hugo_article(article: dict, fr_content: str, en_content: str, title_fr: str = "") -> bool:
     """Génère le fichier Markdown Hugo. Retourne True si créé."""
     now      = datetime.now()
     date_str = now.strftime("%Y-%m-%d")
@@ -217,6 +219,7 @@ def create_hugo_article(article: dict, fr_content: str, en_content: str) -> bool
 
     frontmatter = f"""---
 title: "{escape_yaml(article['title'])}"
+title_fr: "{escape_yaml(title_fr or article['title'])}"
 date: {now.strftime("%Y-%m-%dT%H:%M:%S")}+01:00
 draft: false
 description: "{escape_yaml(summary_fr[:160])}"
@@ -281,7 +284,7 @@ def main() -> None:
 
         # Génération bilingue
         print("   🤖 Génération bilingue (Claude)…")
-        fr, en = generate_bilingual_content(article, content, api_key)
+        fr, en, title_fr = generate_bilingual_content(article, content, api_key)
 
         if not fr:
             print("   ⚠️  Contenu vide — article ignoré.")
@@ -289,7 +292,7 @@ def main() -> None:
             continue
 
         # Création du fichier Hugo
-        if create_hugo_article(article, fr, en):
+        if create_hugo_article(article, fr, en, title_fr):
             created += 1
             processed.add(article["url"])
         else:

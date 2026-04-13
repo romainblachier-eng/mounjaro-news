@@ -1,5 +1,6 @@
 ---
 title: "Mounjaro, Wegovy - La prescription des traitements de l’obésité est étendue - Actualité - Que Choisir"
+title_fr: "Mounjaro, Wegovy - La prescription des traitements de l’obésité est étendue - Actualité - Que Choisir"
 date: 2026-03-12T09:11:38+01:00
 draft: false
 description: "Les médicaments à base de tirzépatide et sémaglutide conquièrent progressivement le marché de l'amaigrissement."

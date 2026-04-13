@@ -1,5 +1,6 @@
 ---
 title: "Eli Lilly continue à prendre de l'embonpoint, sur un marché de plus en plus concurrentiel - Les Echos"
+title_fr: "Eli Lilly continue à prendre de l'embonpoint, sur un marché de plus en plus concurrentiel - Les Echos"
 date: 2026-03-07T07:51:37+01:00
 draft: false
 description: "Le marché des médicaments contre l'obésité et le diabète explose, et Eli Lilly en devient un géant incontournable."

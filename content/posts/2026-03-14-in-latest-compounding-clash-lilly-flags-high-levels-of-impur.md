@@ -1,5 +1,6 @@
 ---
 title: "In latest compounding clash, Lilly flags high levels of 'impurity' in tirzepatide knockoffs with vitamin B12 - Fierce Pharma"
+title_fr: "Nouveau bras de fer sur les préparations magistrales : Lilly signale des taux élevés d’« impuretés » dans des copies de tirzépatide avec vitamine B12 - Fierce Pharma"
 date: 2026-03-14T07:58:46+01:00
 draft: false
 description: "Les médicaments contrefaits du Mounjaro pourraient présenter des risques sanitaires non négligeables."

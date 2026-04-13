@@ -1,5 +1,6 @@
 ---
 title: "Augmentation des ventes de médicaments contre l'obésité au Portugal - The Portugal News"
+title_fr: "Augmentation des ventes de médicaments contre l'obésité au Portugal - The Portugal News"
 date: 2026-03-06T08:02:24+01:00
 draft: false
 description: "Le marché portugais des médicaments amincissants explose."

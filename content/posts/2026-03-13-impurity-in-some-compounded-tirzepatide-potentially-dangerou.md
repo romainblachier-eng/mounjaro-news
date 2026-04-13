@@ -1,5 +1,6 @@
 ---
 title: "Impurity in Some Compounded Tirzepatide 'Potentially Dangerous,' Eli Lilly Warns - MedPage Today"
+title_fr: "Une impureté « potentiellement dangereuse » dans certaines versions composées du tirzépatide, alerte Eli Lilly - MedPage Today"
 date: 2026-03-13T09:05:30+01:00
 draft: false
 description: "Le fabricant Eli Lilly met en garde contre des risques de contamination dans certains préparatifs non officiels de tirzépatide."

@@ -1,5 +1,6 @@
 ---
 title: "Mounjaro Eye Side Effects Lawsuit [2026 Update]"
+title_fr: "Effets secondaires oculaires du Mounjaro : le point sur les actions en justice [mise à jour 2026]"
 date: 2026-03-01T07:53:54+01:00
 draft: false
 description: "Le Mounjaro, un médicament contre le diabète de type 2, fait face à des poursuites judiciaires concernant des effets indésirables oculaires."

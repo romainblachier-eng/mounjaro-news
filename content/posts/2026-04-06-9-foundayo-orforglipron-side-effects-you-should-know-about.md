@@ -1,5 +1,6 @@
 ---
 title: "9 Foundayo (Orforglipron) Side Effects You Should Know About"
+title_fr: "9 effets secondaires du Foundayo (orforglipron) à connaître"
 date: 2026-04-06T08:21:39+01:00
 draft: false
 description: "L'orforglipron, commercialisé sous le nom de Foundayo, est un médicament injectable récemment approuvé qui agit sur les hormones de l'appétit."

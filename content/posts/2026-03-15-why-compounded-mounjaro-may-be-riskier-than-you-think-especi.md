@@ -1,5 +1,6 @@
 ---
 title: "Why compounded Mounjaro may be riskier than you think, especially if it contains B12 - The South First"
+title_fr: "Pourquoi le Mounjaro composé peut être plus risqué qu’on ne le pense, surtout s’il contient de la B12 - The South First"
 date: 2026-03-15T08:03:54+01:00
 draft: false
 description: "Le Mounjaro contrefait présente des risques méconnus, particulièrement quand il contient de la vitamine B12."

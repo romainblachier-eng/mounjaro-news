@@ -1,5 +1,6 @@
 ---
 title: "FDA approves Foundayo, Eli Lilly's new GLP-1 obesity pill - LiveNOW from FOX"
+title_fr: "La FDA approuve Foundayo, la nouvelle pilule GLP-1 anti-obésité d’Eli Lilly - LiveNOW from FOX"
 date: 2026-04-03T08:01:08+01:00
 draft: false
 description: "Eli Lilly vient de franchir une étape majeure dans le traitement de l'obésité avec l'approbation d'un nouveau médicament par les autorités américaines."

@@ -1,5 +1,6 @@
 ---
 title: "Mounjaro: Why medical experts say Kenyans should be cautious - Daily Nation"
+title_fr: "Mounjaro : pourquoi les experts médicaux appellent les Kényans à la prudence - Daily Nation"
 date: 2026-03-01T17:56:32+01:00
 draft: false
 description: "Le tirzépatide, commercialisé sous le nom Mounjaro, suscite des questions légitimes auprès des professionnels de santé kenyans."

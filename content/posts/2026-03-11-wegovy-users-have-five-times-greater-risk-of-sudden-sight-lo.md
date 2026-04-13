@@ -1,5 +1,6 @@
 ---
 title: "Wegovy users have five times greater risk of sudden sight loss than Ozempic users, study finds - The Guardian"
+title_fr: "Les utilisateurs de Wegovy auraient un risque de perte soudaine de la vue cinq fois supérieur à ceux sous Ozempic, selon une étude - The Guardian"
 date: 2026-03-11T08:06:16+01:00
 draft: false
 description: "Une nouvelle étude soulève des questions sur la sécurité oculaire des traitements GLP-1."

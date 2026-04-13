@@ -1,5 +1,6 @@
 ---
 title: "Weight-Loss Drug Linked to Lower Risk of Eye Disease in Patients with Diabetes - WCM Newsroom"
+title_fr: "Un médicament anti-obésité associé à un moindre risque de maladie oculaire chez les patients diabétiques - WCM Newsroom"
 date: 2026-03-02T09:34:33+01:00
 draft: false
 description: "Le Mounjaro pourrait offrir une protection inattendue aux yeux des patients diabétiques."

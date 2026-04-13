@@ -1,5 +1,6 @@
 ---
 title: "Pharmacists Play Central Role in Optimizing Tirzepatide Use for Type 2 Diabetes - Pharmacy Times"
+title_fr: "Les pharmaciens jouent un rôle central dans l’optimisation du tirzépatide pour le diabète de type 2 - Pharmacy Times"
 date: 2026-04-10T08:20:17+01:00
 draft: false
 description: "Le rôle clé des pharmaciens dans l'utilisation optimale du tirzépatide est souvent sous-estimé."

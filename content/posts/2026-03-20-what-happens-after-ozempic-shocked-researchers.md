@@ -1,5 +1,6 @@
 ---
 title: "What happens after Ozempic shocked researchers"
+title_fr: "Ce qui se passe après l’arrêt d’Ozempic a surpris les chercheurs"
 date: 2026-03-20T09:05:15+01:00
 draft: false
 description: "Le Mounjaro surprend la communauté médicale par son efficacité remarquable."

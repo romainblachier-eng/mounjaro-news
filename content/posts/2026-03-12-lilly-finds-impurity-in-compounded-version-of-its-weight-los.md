@@ -1,5 +1,6 @@
 ---
 title: "Lilly finds impurity in compounded version of its weight-loss drug, warns of health risks"
+title_fr: "Lilly détecte une impureté dans une version composée de son médicament anti-obésité et alerte sur des risques sanitaires"
 date: 2026-03-12T09:11:25+01:00
 draft: false
 description: "Le laboratoire Eli Lilly a identifié une substance indésirable dans des versions contrefaites du Mounjaro, son médicament contre l'obésité."

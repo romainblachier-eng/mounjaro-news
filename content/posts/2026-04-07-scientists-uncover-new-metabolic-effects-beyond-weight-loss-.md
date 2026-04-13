@@ -1,5 +1,6 @@
 ---
 title: "Scientists Uncover New Metabolic Effects Beyond Weight Loss of Mounjaro"
+title_fr: "Des scientifiques découvrent de nouveaux effets métaboliques du Mounjaro au-delà de la perte de poids"
 date: 2026-04-07T08:11:23+01:00
 draft: false
 description: "Le Mounjaro surprend les chercheurs par des effets bien au-delà de la simple perte de poids."

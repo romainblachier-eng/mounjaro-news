@@ -1,5 +1,6 @@
 ---
 title: "New analysis of GLP-1 drugs suggests people who stopped using medications regained 60% of weight lost - ABC News"
+title_fr: "Une nouvelle analyse sur les GLP-1 indique que les personnes ayant arrêté le traitement ont repris 60 % du poids perdu - ABC News"
 date: 2026-03-06T08:02:06+01:00
 draft: false
 description: "Une découverte majeure sur le devenir du poids après l'arrêt des médicaments GLP-1."

@@ -1,5 +1,6 @@
 ---
 title: "WEGOVY, SAXENDA, MOUNJARO : prescription élargie à tout médecin, y compris en initiation de traitement"
+title_fr: "WEGOVY, SAXENDA, MOUNJARO : prescription élargie à tout médecin, y compris en initiation de traitement"
 date: 2026-03-08T07:52:49+01:00
 draft: false
 description: "Les médecins généralistes peuvent désormais prescrire les médicaments anti-obésité sans restriction."

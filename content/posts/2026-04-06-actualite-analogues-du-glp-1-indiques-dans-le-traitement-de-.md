@@ -1,5 +1,6 @@
 ---
 title: "Actualité - Analogues du GLP-1 indiqués dans le traitement de l’obésité : l’ANSM fait évoluer leurs conditions de prescription et de délivrance"
+title_fr: "Actualité - Analogues du GLP-1 indiqués dans le traitement de l’obésité : l’ANSM fait évoluer leurs conditions de prescription et de délivrance"
 date: 2026-04-06T08:21:48+01:00
 draft: false
 description: "Les autorités de santé françaises rénovent les règles d'accès aux nouveaux traitements de l'obésité."

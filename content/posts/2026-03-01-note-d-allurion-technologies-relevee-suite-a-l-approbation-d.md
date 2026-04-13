@@ -1,5 +1,6 @@
 ---
 title: "Note d’Allurion Technologies relevée suite à l’approbation de la FDA - Investing.com France"
+title_fr: "Note d’Allurion Technologies relevée suite à l’approbation de la FDA - Investing.com France"
 date: 2026-03-01T07:54:10+01:00
 draft: false
 description: "Le Mounjaro franchit une nouvelle étape importante dans sa reconnaissance mondiale."

@@ -1,5 +1,6 @@
 ---
 title: "Can Mounjaro Make Birth Control Less Effective? - MedShadow Foundation"
+title_fr: "Le Mounjaro peut-il réduire l’efficacité de la contraception ? - MedShadow Foundation"
 date: 2026-04-07T08:11:30+01:00
 draft: false
 description: "Le Mounjaro pourrait-il réduire l'efficacité de votre contraception ? C'est la question que se posent de nombreuses femmes sous ce traitement du diabète."

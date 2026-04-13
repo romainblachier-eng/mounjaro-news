@@ -1,5 +1,6 @@
 ---
 title: "Weight-loss drugs: Who benefits most and why?"
+title_fr: "Médicaments de perte de poids : à qui profitent-ils le plus, et pourquoi ?"
 date: 2026-04-09T08:19:08+01:00
 draft: false
 description: "Le Mounjaro fait partie d'une nouvelle génération de médicaments qui transforment la prise en charge du surpoids."

@@ -1,5 +1,6 @@
 ---
 title: "13 surprising ways GLP-1s may benefit the body, according to science - The Washington Post"
+title_fr: "13 bénéfices surprenants des GLP-1 pour l’organisme, selon la science - The Washington Post"
 date: 2026-03-28T07:43:08+01:00
 draft: false
 description: "Au-delà de la perte de poids, les médicaments GLP-1 comme le Mounjaro pourraient transformer notre approche de plusieurs maladies."

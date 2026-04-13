@@ -1,5 +1,6 @@
 ---
 title: "Lilly's Mounjaro (tirzepatide), a GIP/GLP-1 dual receptor agonist, reduced A1C by an average of 2.2% in a Phase 3 trial of children and adolescents with type 2 diabetes - PR Newswire"
+title_fr: "Le Mounjaro (tirzépatide) de Lilly, agoniste double des récepteurs GIP/GLP-1, réduit l’HbA1c de 2,2 % en moyenne dans un essai de phase 3 chez l’enfant et l’adolescent diabétiques de type 2 - PR Newswire"
 date: 2026-03-30T08:20:49+01:00
 draft: false
 description: "Le Mounjaro montre des résultats prometteurs chez les jeunes diabétiques."

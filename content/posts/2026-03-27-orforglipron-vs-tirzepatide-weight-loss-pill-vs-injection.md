@@ -1,5 +1,6 @@
 ---
 title: "Orforglipron vs. Tirzepatide: Weight Loss Pill vs. Injection"
+title_fr: "Orforglipron vs tirzépatide : la pilule minceur face à l’injection"
 date: 2026-03-27T07:58:52+01:00
 draft: false
 description: "Le tirzépatide s'impose comme un traitement injectable majeur dans la gestion du poids."

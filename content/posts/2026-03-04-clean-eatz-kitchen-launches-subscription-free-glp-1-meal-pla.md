@@ -1,5 +1,6 @@
 ---
 title: "Clean Eatz Kitchen Launches Subscription-Free GLP-1 Meal Plan for Ozempic®, Wegovy®, and Mounjaro® Users - PR Newswire"
+title_fr: "Clean Eatz Kitchen lance un plan repas GLP-1 sans abonnement pour les utilisateurs d’Ozempic®, Wegovy® et Mounjaro® - PR Newswire"
 date: 2026-03-04T08:03:03+01:00
 draft: false
 description: "Le Mounjaro révolutionne l'approche nutritionnelle des patients en traitement par GLP-1."

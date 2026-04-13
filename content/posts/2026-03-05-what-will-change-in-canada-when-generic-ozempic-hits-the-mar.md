@@ -1,5 +1,6 @@
 ---
 title: "What will change in Canada when generic Ozempic hits the market, according to our reporters - The Globe and Mail"
+title_fr: "Ce qui va changer au Canada avec l’arrivée de l’Ozempic générique, selon nos journalistes - The Globe and Mail"
 date: 2026-03-05T08:05:31+01:00
 draft: false
 description: "La disponibilité prochaine de versions génériques du semaglutide pourrait transformer l'accès aux traitements contre l'obésité au Canada."

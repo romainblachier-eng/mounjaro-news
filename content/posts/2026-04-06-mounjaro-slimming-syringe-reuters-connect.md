@@ -1,5 +1,6 @@
 ---
 title: "Mounjaro slimming syringe - Reuters Connect"
+title_fr: "Seringue minceur Mounjaro - Reuters Connect"
 date: 2026-04-06T08:21:31+01:00
 draft: false
 description: "Le Mounjaro fait sensation au-delà de son indication initiale contre le diabète."

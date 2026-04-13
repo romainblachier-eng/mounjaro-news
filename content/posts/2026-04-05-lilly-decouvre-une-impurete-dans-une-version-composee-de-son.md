@@ -1,5 +1,6 @@
 ---
 title: "Lilly découvre une impureté dans une version composée de son médicament pour la perte de poids et met en garde"
+title_fr: "Lilly découvre une impureté dans une version composée de son médicament pour la perte de poids et met en garde"
 date: 2026-04-05T07:53:40+01:00
 draft: false
 description: "Le laboratoire Lilly a découvert une substance indésirable dans certains lots de son traitement minceur à base de tirzépatide."

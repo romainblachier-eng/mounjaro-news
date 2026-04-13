@@ -1,5 +1,6 @@
 ---
 title: "Weight-gain fears after stopping Ozempic unfounded – Cleveland Clinic study - Medical Brief"
+title_fr: "La crainte d’une reprise de poids après l’arrêt d’Ozempic serait infondée, selon la Cleveland Clinic - Medical Brief"
 date: 2026-03-26T08:00:57+01:00
 draft: false
 description: "Une étude de la clinique Cleveland rassure les utilisateurs du Mounjaro : l'arrêt du traitement n'entraîne pas systématiquement une reprise de poids incontrôlée"

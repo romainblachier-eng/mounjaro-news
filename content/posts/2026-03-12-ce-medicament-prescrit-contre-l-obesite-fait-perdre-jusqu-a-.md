@@ -1,5 +1,6 @@
 ---
 title: "Ce médicament prescrit contre l’obésité fait perdre jusqu’à 20 % de son poids initial, mais son arrêt inquiète la médecine car il entraîne une reprise rapide des kilos et un impact immédiat sur la santé cardiovasculaire - Science et vie"
+title_fr: "Ce médicament prescrit contre l’obésité fait perdre jusqu’à 20 % de son poids initial, mais son arrêt inquiète la médecine car il entraîne une reprise rapide des kilos et un impact immédiat sur la santé cardiovasculaire - Science et vie"
 date: 2026-03-12T09:11:46+01:00
 draft: false
 description: "Le Mounjaro suscite des débats intenses dans le milieu médical concernant ses effets après l'arrêt du traitement."

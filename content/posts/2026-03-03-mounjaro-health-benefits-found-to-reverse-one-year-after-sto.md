@@ -1,5 +1,6 @@
 ---
 title: "Mounjaro health benefits found to reverse one year after stopping drug - The Pharmaceutical Journal"
+title_fr: "Les bénéfices du Mounjaro s’inversent un an après l’arrêt du traitement - The Pharmaceutical Journal"
 date: 2026-03-03T08:06:01+01:00
 draft: false
 description: "Le Mounjaro pourrait offrir des bénéfices durables bien après l'arrêt du traitement."

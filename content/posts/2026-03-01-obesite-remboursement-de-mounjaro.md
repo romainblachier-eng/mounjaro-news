@@ -1,5 +1,6 @@
 ---
 title: "Obésité : remboursement de Mounjaro"
+title_fr: "Obésité : remboursement de Mounjaro"
 date: 2026-03-01T17:56:41+01:00
 draft: false
 description: "Le Mounjaro franchit une étape cruciale en matière d'accès aux patients."

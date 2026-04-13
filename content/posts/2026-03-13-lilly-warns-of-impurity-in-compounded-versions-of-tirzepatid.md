@@ -1,5 +1,6 @@
 ---
 title: "Lilly warns of impurity in compounded versions of tirzepatide - FirstWord Pharma"
+title_fr: "Lilly alerte sur une impureté dans des versions composées du tirzépatide - FirstWord Pharma"
 date: 2026-03-13T09:05:39+01:00
 draft: false
 description: "Le Mounjaro, médicament très demandé pour traiter le diabète, fait l'objet d'une mise en garde importante."

@@ -1,5 +1,6 @@
 ---
 title: "India's drug regulator tightens surveillance against unauthorized weight-loss drug sales"
+title_fr: "Le régulateur indien durcit la surveillance contre les ventes non autorisées de médicaments minceur"
 date: 2026-03-24T07:52:22+01:00
 draft: false
 description: "Les autorités sanitaires indiennes renforcent leur vigilance contre la vente illégale de médicaments amaigrissants."

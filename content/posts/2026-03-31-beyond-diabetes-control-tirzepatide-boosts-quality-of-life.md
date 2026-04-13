@@ -1,5 +1,6 @@
 ---
 title: "Beyond Diabetes Control: Tirzepatide Boosts Quality of Life"
+title_fr: "Au-delà du contrôle du diabète : le tirzépatide améliore la qualité de vie"
 date: 2026-03-31T08:07:03+01:00
 draft: false
 description: "Le tirzépatide révolutionne bien au-delà du simple contrôle du glucose sanguin."

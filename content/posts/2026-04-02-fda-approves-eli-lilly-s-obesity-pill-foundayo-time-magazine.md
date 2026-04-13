@@ -1,5 +1,6 @@
 ---
 title: "FDA Approves Eli Lilly's Obesity Pill, Foundayo - Time Magazine"
+title_fr: "La FDA approuve Foundayo, la pilule anti-obésité d’Eli Lilly - Time Magazine"
 date: 2026-04-02T08:05:28+01:00
 draft: false
 description: "La FDA autorise un nouveau traitement contre l'obésité : le Foundayo d'Eli Lilly."

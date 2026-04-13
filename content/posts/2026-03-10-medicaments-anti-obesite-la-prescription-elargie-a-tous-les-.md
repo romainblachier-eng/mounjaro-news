@@ -1,5 +1,6 @@
 ---
 title: "Médicaments anti-obésité : la prescription élargie à tous les médecins en France"
+title_fr: "Médicaments anti-obésité : la prescription élargie à tous les médecins en France"
 date: 2026-03-10T08:05:56+01:00
 draft: false
 description: "La France élargit l'accès aux nouveaux traitements contre l'obésité : une décision majeure qui pourrait changer la vie de millions de patients."

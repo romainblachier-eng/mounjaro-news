@@ -1,5 +1,6 @@
 ---
 title: "A Second Weight Loss Pill Just Hit the Market. Here’s How It’s Different. - Men's Health"
+title_fr: "Une deuxième pilule minceur arrive sur le marché : voici ce qui la distingue - Men’s Health"
 date: 2026-04-02T08:05:45+01:00
 draft: false
 description: "Le Mounjaro représente une nouvelle arme contre l'obésité, mais fonctionne différemment des médicaments existants."

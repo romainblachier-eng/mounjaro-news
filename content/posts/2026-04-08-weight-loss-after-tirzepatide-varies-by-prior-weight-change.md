@@ -1,5 +1,6 @@
 ---
 title: "Weight Loss After Tirzepatide Varies by Prior Weight Change"
+title_fr: "La perte de poids sous tirzépatide varie selon les antécédents pondéraux"
 date: 2026-04-08T08:11:53+01:00
 draft: false
 description: "{

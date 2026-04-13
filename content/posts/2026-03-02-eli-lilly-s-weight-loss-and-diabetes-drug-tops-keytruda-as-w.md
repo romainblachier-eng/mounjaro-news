@@ -1,5 +1,6 @@
 ---
 title: "Eli Lilly’s weight loss and diabetes drug tops Keytruda as world’s best-selling medicine"
+title_fr: "Le médicament anti-obésité et antidiabète d’Eli Lilly dépasse Keytruda comme médicament le plus vendu au monde"
 date: 2026-03-02T09:34:24+01:00
 draft: false
 description: "Le Mounjaro d'Eli Lilly a détrôné le célèbre Keytruda pour devenir le médicament le plus vendu au monde."
