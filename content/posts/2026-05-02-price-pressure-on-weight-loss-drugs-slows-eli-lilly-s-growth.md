@@ -1,0 +1,16 @@
+---
+title: "Price pressure on weight-loss drugs slows Eli Lilly’s growth engine in the first quarter"
+title_fr: "La pression sur les prix des médicaments amaigrissants freine la croissance d'Eli Lilly au premier trimestre"
+date: 2026-05-02T08:20:09+01:00
+draft: false
+description: "Les médicaments contre l'obésité deviennent des enjeux économiques majeurs."
+source_name: "news.google.com"
+source_url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tcnVhMWs3aEdWQU5HNjBzUHZTY1hnR2pES0dzMno5WmhQQzBaOGpaYnRkNG9NTF9KQTFqaWlKTGZZbm1fZXptN1lFRDZ0MDA2cC1uY2RpazBFNVZNNFRsN055eHFveTdBLWllbTh5cw?oc=5"
+summary_fr: "Les médicaments contre l'obésité deviennent des enjeux économiques majeurs."
+content_fr: |
+  Les médicaments contre l'obésité deviennent des enjeux économiques majeurs. Eli Lilly, géant pharmaceutique américain, subit de plein fouet les effets de la concurrence accrue et des négociations tarifaires sur ses produits de perte de poids, notamment le Mounjaro (tirzépatide). Au premier trimestre, cette pression tarifaire a significativement ralenti la dynamique de croissance du groupe. Les assureurs, les gouvernements et les systèmes de santé mondiaux négocient âprement les prix de ces médicaments très demandés. Cette situation contraste fortement avec l'engouement initial pour ces traitements innovants, qui imitent une hormone naturelle régulant l'appétit. Le marché des GLP-1, la classe thérapeutique à laquelle appartient le tirzépatide, explose pourtant en demande. Cependant, les tensions commerciales autour des tarifs menacent la rentabilité même des leaders du secteur. Eli Lilly doit adapter sa stratégie face à cette réalité économique nouvelle : comment maintenir l'innovation et les investissements en recherche quand les revenus se contractent ? Cette question dépasse le simple cadre commercial et touche à l'accès équitable de ces traitements pour les patients.
+content_en: |
+  Weight-loss medications are becoming major economic battlegrounds. Eli Lilly, the American pharmaceutical giant, is facing significant headwinds from intensifying competition and price negotiations on its obesity treatments, particularly Mounjaro (tirzepatide). In the first quarter, these pricing pressures substantially slowed the company's growth momentum. Insurers, governments, and healthcare systems worldwide are aggressively negotiating prices for these highly demanded drugs. This contrasts sharply with the initial enthusiasm surrounding these innovative treatments, which mimic a natural hormone regulating appetite. The GLP-1 market, the therapeutic class to which tirzepatide belongs, is nonetheless exploding in demand. However, commercial tensions over pricing threaten profitability even for industry leaders. Eli Lilly must adapt its strategy to this new economic reality: how to sustain innovation and research investments when revenues contract? This question extends beyond simple commercial considerations and touches on equitable patient access to these treatments worldwide.
+---
+<!-- Article généré automatiquement par Mounjaro News -->
+<!-- Source : [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE5tcnVhMWs3aEdWQU5HNjBzUHZTY1hnR2pES0dzMno5WmhQQzBaOGpaYnRkNG9NTF9KQTFqaWlKTGZZbm1fZXptN1lFRDZ0MDA2cC1uY2RpazBFNVZNNFRsN055eHFveTdBLWllbTh5cw?oc=5) -->
