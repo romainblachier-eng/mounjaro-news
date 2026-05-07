@@ -1,0 +1,16 @@
+---
+title: "LLY vs Novo Nordisk 2026: GLP-1 Stocks Compared"
+title_fr: "Eli Lilly face à Novo Nordisk en 2026 : comparaison des actions GLP-1"
+date: 2026-05-07T09:28:37+01:00
+draft: false
+description: "La course aux médicaments amaigrissants s'intensifie entre deux géants pharmaceutiques."
+source_name: "news.google.com"
+source_url: "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUVd4NUItTjNVXzZFUm1NUTJWaEpwcVNZUTdwYXp4LXJxQmVzMlBJSW9fVmtwY0JjQ3oxR2lqbEJma0xkb2x1ZWhKRzRJUGNzVUJMSktGa3dwWXdYVzc2QWtkNVB0eGhPWDRvMUdGREF6Z2Y0cG5OeTVrbTVseHRXQllzNHo0UQ?oc=5"
+summary_fr: "La course aux médicaments amaigrissants s'intensifie entre deux géants pharmaceutiques."
+content_fr: |
+  La course aux médicaments amaigrissants s'intensifie entre deux géants pharmaceutiques. Eli Lilly et Novo Nordisk dominent le marché des GLP-1, ces molécules révolutionnaires qui régulent l'appétit et la glycémie. Le Mounjaro (tirzépatide) d'Eli Lilly et les produits Ozempic/Wegovy de Novo Nordisk captent l'attention des investisseurs et des patients du monde entier. En 2026, cette compétition atteindra un tournant décisif. Les analystes financiers scrutent les perspectives de croissance de chaque groupe, les capacités de production et l'élargissement des indications thérapeutiques. Novo Nordisk bénéficie d'une longueur d'avance commerciale, mais Eli Lilly gagne du terrain avec des données cliniques impressionnantes et une stratégie de tarification agressive. Les deux entreprises investissent massivement dans la recherche pour développer des générations suivantes de GLP-1, notamment des versions orales ou moins fréquentes. Les enjeux sont colossaux : le marché des antidiabétiques et des traitements de l'obésité pourrait atteindre plusieurs centaines de milliards de dollars. Les investisseurs évaluent le potentiel long terme, les brevets, et la capacité à conquérir de nouveaux marchés notamment en Europe et en Asie.
+content_en: |
+  Two pharmaceutical giants are intensifying their race for blockbuster weight-loss drugs. Eli Lilly and Novo Nordisk dominate the GLP-1 market, a new class of medications that control appetite and blood sugar levels. Eli Lilly's Mounjaro (tirzepeptide) and Novo Nordisk's Ozempic/Wegovy products are capturing investors' and patients' attention worldwide. By 2026, this competition will reach a critical turning point. Financial analysts are examining each company's growth prospects, production capacity, and expansion into new therapeutic areas. Novo Nordisk currently enjoys a commercial advantage, but Eli Lilly is closing the gap with impressive clinical data and aggressive pricing strategies. Both companies are investing heavily in research to develop next-generation GLP-1s, including oral formulations and less frequent dosing options. The stakes are enormous: the market for diabetes and obesity treatments could reach hundreds of billions of dollars. Investors are evaluating long-term potential, patent portfolios, and the ability to expand into new markets, particularly in Europe and Asia.
+---
+<!-- Article généré automatiquement par Mounjaro News -->
+<!-- Source : [news.google.com](https://news.google.com/rss/articles/CBMihgFBVV95cUxOUVd4NUItTjNVXzZFUm1NUTJWaEpwcVNZUTdwYXp4LXJxQmVzMlBJSW9fVmtwY0JjQ3oxR2lqbEJma0xkb2x1ZWhKRzRJUGNzVUJMSktGa3dwWXdYVzc2QWtkNVB0eGhPWDRvMUdGREF6Z2Y0cG5OeTVrbTVseHRXQllzNHo0UQ?oc=5) -->
