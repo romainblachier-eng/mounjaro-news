@@ -1,0 +1,16 @@
+---
+title: "Mounjaro dethrones Keytruda as top-selling global drug"
+title_fr: "Le Mounjaro détrône Keytruda comme médicament le plus vendu au monde"
+date: 2026-05-09T08:25:12+01:00
+draft: false
+description: "Le Mounjaro, un traitement contre le diabète et l'obésité, a surpassé Keytruda pour devenir le médicament le plus vendu globalement."
+source_name: "news.google.com"
+source_url: "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQX2RBWkFFZGEzX2R2a05kdnVTS19HVzdtLVdiUXhNY2ltYk1ORFpBaUM3YWZfMWNBM3c4LWpjX1I0MW1MTERTRkV0NUduemFIWUlkVGZsenNOWHFxY0NhRGptOWFHU2lWRWhJTnNjd2thd1F2WEpXVnZKZHNKdW9Lb09RMUpYWkMzWGRROEhYTFR0d28yRURhWWtxUUIybmhyVkY2WE15VUhxYlFsUXRyMTF1UHdLOFh3Qkh4Sms4c2ZIX2Joem5qNlJWakpnaF9HLVJ0VEJvazdWUVRWV1p4b2pURDBOQ2R6U21YUWJWeFk?oc=5"
+summary_fr: "Le Mounjaro, un traitement contre le diabète et l'obésité, a surpassé Keytruda pour devenir le médicament le plus vendu globalement."
+content_fr: |
+  Le Mounjaro, un traitement contre le diabète et l'obésité, a surpassé Keytruda pour devenir le médicament le plus vendu globalement. Cette ascension spectaculaire reflète la demande croissante pour les médicaments à base de GLP-1, une classe thérapeutique révolutionnaire qui régule l'appétit et le contrôle glycémique. Le Mounjaro, ou tirzépatide, combine deux mécanismes d'action en un seul traitement, le rendant particulièrement efficace. Son succès commercial dépasse les prévisions initiales, alimenté par une adoption massive au-delà du marché initial du diabète. Les entreprises pharmaceutiques observent cette tendance de près, car elle signale un changement majeur dans les priorités de santé mondiale. La popularité du Mounjaro soulève également des questions sur l'accès équitable et la disponibilité mondiale de ces traitements innovants. Son ascension au rang de meilleur ventes illustre comment un médicament efficace peut transformer rapidement le paysage pharmaceutique global.
+content_en: |
+  Mounjaro, a treatment for diabetes and obesity, has surpassed Keytruda to become the world's top-selling drug. This remarkable rise reflects soaring demand for GLP-1 based medications, a revolutionary drug class that regulates appetite and blood sugar control. Mounjaro, or tirzepatide, combines two mechanisms of action in a single therapy, making it particularly potent. Its commercial success has exceeded initial forecasts, driven by widespread adoption beyond its original diabetes market. Pharmaceutical companies are closely monitoring this trend, as it signals a fundamental shift in global health priorities. Mounjaro's popularity also raises important questions about equitable access and worldwide availability of these innovative treatments. Its ascent to top-selling status demonstrates how an effective medication can rapidly reshape the global pharmaceutical landscape and influence treatment paradigms across multiple therapeutic areas.
+---
+<!-- Article généré automatiquement par Mounjaro News -->
+<!-- Source : [news.google.com](https://news.google.com/rss/articles/CBMi8AFBVV95cUxQX2RBWkFFZGEzX2R2a05kdnVTS19HVzdtLVdiUXhNY2ltYk1ORFpBaUM3YWZfMWNBM3c4LWpjX1I0MW1MTERTRkV0NUduemFIWUlkVGZsenNOWHFxY0NhRGptOWFHU2lWRWhJTnNjd2thd1F2WEpXVnZKZHNKdW9Lb09RMUpYWkMzWGRROEhYTFR0d28yRURhWWtxUUIybmhyVkY2WE15VUhxYlFsUXRyMTF1UHdLOFh3Qkh4Sms4c2ZIX2Joem5qNlJWakpnaF9HLVJ0VEJvazdWUVRWV1p4b2pURDBOQ2R6U21YUWJWeFk?oc=5) -->
