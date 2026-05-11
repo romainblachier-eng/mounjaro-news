@@ -1,0 +1,16 @@
+---
+title: "Mounjaro remains number one in India as Torrent captures 38% of the generic semaglutide market - The South First"
+title_fr: "Le Mounjaro conserve sa domination en Inde tandis que Torrent s'empare de 38% du marché générique de la sémaglutide - The South First"
+date: 2026-05-11T10:35:56+01:00
+draft: false
+description: "Le marché indien des médicaments amaigrissants connaît une dynamique remarquable."
+source_name: "news.google.com"
+source_url: "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWENJV1Fod0dWYjNPZ09YSlE4MkxYU1c1UUZZVFQ1NmhXNUNnaktlVWRRVHVMTzJzSzF2aUd2VVA4UTJKRkpBQUhLb04tSXpSLWotMVlzbGJFc3hGU3BacTJ5QzdBZG5oQTB0anNxR0R1VWxWLXhtTk5WdGVNRVNuRHRwbk1FYjBST1BWdDRRdUJ2allGREYtRThyZ2V6UEk5c2ZPRTdxSkZHXzRFMG44bEtNTDVySlN5RUc4WHUzR2xYbDQzd2c?oc=5"
+summary_fr: "Le marché indien des médicaments amaigrissants connaît une dynamique remarquable."
+content_fr: |
+  Le marché indien des médicaments amaigrissants connaît une dynamique remarquable. Le Mounjaro, développé par Eli Lilly, maintient sa position de leader malgré l'émergence de génériques concurrents. Parallèlement, Torrent Pharmaceuticals a capturé une part impressionnante du marché de la sémaglutide générique, un médicament anti-diabétique également utilisé pour la gestion du poids. Cette fragmentation du marché illustre la transition entre les traitements originaux et leurs versions moins coûteuses. En Inde, où l'accessibilité des prix reste cruciale, cette compétition bénéficie aux patients en proposant des alternatives économiques. Le Mounjaro appartient à la classe des agonistes GLP-1, hormones naturelles régulant l'appétit. La sémaglutide, bien que plus ancienne, offre des bénéfices comparables à un coût réduit. Cette concurrence devrait continuer à façonner le paysage pharmaceutique indien, avec des implications importantes pour l'accès aux traitements métaboliques.
+content_en: |
+  India's weight management pharmaceutical market is experiencing significant transformation. Mounjaro, developed by Eli Lilly, retains its leading position despite growing competition from generic alternatives. Meanwhile, Torrent Pharmaceuticals has captured a substantial share of the generic semaglutide market, an anti-diabetic medication also used for weight management. This market fragmentation reflects the transition from original branded drugs to more affordable generic versions. In India, where price accessibility remains critical, this competition benefits patients by providing economical alternatives. Mounjaro belongs to the GLP-1 agonist class, hormones that naturally regulate appetite. Semaglutide, though older, delivers comparable benefits at reduced cost. This competitive dynamic is likely to continue reshaping India's pharmaceutical landscape, with significant implications for patient access to metabolic treatments and overall healthcare affordability in the region.
+---
+<!-- Article généré automatiquement par Mounjaro News -->
+<!-- Source : [news.google.com](https://news.google.com/rss/articles/CBMixgFBVV95cUxQWENJV1Fod0dWYjNPZ09YSlE4MkxYU1c1UUZZVFQ1NmhXNUNnaktlVWRRVHVMTzJzSzF2aUd2VVA4UTJKRkpBQUhLb04tSXpSLWotMVlzbGJFc3hGU3BacTJ5QzdBZG5oQTB0anNxR0R1VWxWLXhtTk5WdGVNRVNuRHRwbk1FYjBST1BWdDRRdUJ2allGREYtRThyZ2V6UEk5c2ZPRTdxSkZHXzRFMG44bEtNTDVySlN5RUc4WHUzR2xYbDQzd2c?oc=5) -->
