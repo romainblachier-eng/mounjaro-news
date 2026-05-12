@@ -4,18 +4,37 @@
 {{ $beehiiv := .Site.Params.beehiiv_embed_url }}
 {{ $count := len $pages }}
 
-<!-- Hero Section -->
+<!-- Hero Section — Animated Background Lines -->
 <section class="hero">
+  <!-- Grid Background -->
+  <div class="hero-grid"></div>
+  <!-- Animated Lines -->
+  <div class="hero-lines">
+    <div class="hero-line-wrapper" style="top:10%"><div class="hero-line"><div class="hero-line-glow"></div></div></div>
+    <div class="hero-line-wrapper" style="top:30%"><div class="hero-line"><div class="hero-line-glow hero-line-reverse"></div></div></div>
+    <div class="hero-line-wrapper" style="top:50%"><div class="hero-line"><div class="hero-line-glow"></div></div></div>
+    <div class="hero-line-wrapper" style="top:70%"><div class="hero-line"><div class="hero-line-glow hero-line-reverse"></div></div></div>
+    <div class="hero-line-wrapper" style="top:90%"><div class="hero-line"><div class="hero-line-glow"></div></div></div>
+  </div>
+  <!-- Corner Lines (desktop only) -->
+  <div class="hero-corners">
+    <svg class="hero-corner-left" viewBox="0 0 120 60" stroke="#ff9500" stroke-width="2" fill="none" stroke-dasharray="50">
+      <path d="M120 0 L20 0 Q0 0 0 20 L0 60" />
+    </svg>
+    <svg class="hero-corner-right" viewBox="0 0 120 60" stroke="#ff9500" stroke-width="2" fill="none" stroke-dasharray="50">
+      <path d="M120 0 L20 0 Q0 0 0 20 L0 60" />
+    </svg>
+  </div>
+  <!-- Content -->
   <div class="hero-inner">
-    <div style="margin-bottom:18px"><img src="/images/mounjaro.png" alt="Mounjaro" style="max-width:150px;height:auto;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.12)"></div>
-        <div class="hero-badge">
+    <div class="hero-badge">
       <span class="badge-dot"></span>
       Mis à jour chaque jour - Updated daily
     </div>
-    <h1>L'actualité <em>Mounjaro</em><br>fiable et bilingue</h1>
+    <h1>L'actualité<br><span class="hero-gradient-text">Mounjaro & tirzepatide</span></h1>
     <p class="hero-sub">
       Veille quotidienne sur la tirzepatide : articles sources, reformulés et traduits chaque matin.
-      <em>Daily tirzepatide intelligence - sourced, reformulated and translated.</em>
+      <em>Daily tirzepatide intelligence — sourced, reformulated and translated.</em>
     </p>
     <div class="hero-stats">
       <div class="hero-stat">
@@ -31,6 +50,7 @@
         <span class="hero-stat-text">Sources vérifiées</span>
       </div>
     </div>
+    <a href="/posts/" class="hero-cta">Parcourir les articles</a>
   </div>
 </section>
 
