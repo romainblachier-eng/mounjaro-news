@@ -1,0 +1,16 @@
+---
+title: "Daily pill to help keep weight off after stopping obesity jabs"
+title_fr: "Un comprimé quotidien pour maintenir la perte de poids après l'arrêt des injections anti-obésité"
+date: 2026-05-13T09:42:40+01:00
+draft: false
+description: "La reprise de poids représente un défi majeur pour les personnes qui cessent de prendre des médicaments anti-obésité comme les injections à base de GLP-1."
+source_name: "news.google.com"
+source_url: "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50VHRNQ2NZdFJsYm1od2VMM3pQbllwRlhCSkxfcUdDUHVKZk4yNGhCUUN3UTROT3BwRXc0U2Z1dnY0c21pTk5DM29HOHZpMXlwUVlkcHJfemJWUQ?oc=5"
+summary_fr: "La reprise de poids représente un défi majeur pour les personnes qui cessent de prendre des médicaments anti-obésité comme les injections à base de GLP-1."
+content_fr: |
+  La reprise de poids représente un défi majeur pour les personnes qui cessent de prendre des médicaments anti-obésité comme les injections à base de GLP-1. Des chercheurs explorent désormais une nouvelle approche : un traitement oral quotidien capable de préserver les résultats obtenus. Le Mounjaro (tirzépatide), actuellement administré par injection hebdomadaire, pourrait bientôt bénéficier d'une formulation en comprimé pour maintenir le poids perdu après l'interruption du traitement injectable. Cette perspective intéresse particulièrement les patients qui cherchent une solution moins contraignante pour consolider leurs acquis. Les données préliminaires suggèrent qu'un tel comprimé pourrait aider à stabiliser le poids sur le long terme, bien que des études cliniques supplémentaires soient nécessaires pour confirmer son efficacité et sa sécurité. Cette innovation s'inscrit dans une tendance plus large visant à adapter les médicaments anti-obésité selon les besoins individuels des patients, offrant davantage de flexibilité dans les stratégies de traitement.
+content_en: |
+  Maintaining weight loss after stopping obesity medications remains a significant challenge for many patients. Researchers are now investigating whether an oral daily pill could help preserve weight reduction achieved through injectable treatments like GLP-1 medications. Mounjaro (tirzepaid), currently administered as a weekly injection, may soon be available in tablet form to support weight maintenance following discontinuation of the injectable version. This development addresses a practical concern for patients seeking a less demanding option to consolidate their weight loss results. Early findings indicate that such a pill could potentially help stabilize weight over the long term, though additional clinical trials are required to establish its effectiveness and safety profile. This initiative reflects a broader movement toward personalizing obesity medications based on individual patient needs, providing greater flexibility in treatment approaches. The availability of multiple formulations could offer patients more control over their therapeutic journey.
+---
+<!-- Article généré automatiquement par Mounjaro News -->
+<!-- Source : [news.google.com](https://news.google.com/rss/articles/CBMiWkFVX3lxTE50VHRNQ2NZdFJsYm1od2VMM3pQbllwRlhCSkxfcUdDUHVKZk4yNGhCUUN3UTROT3BwRXc0U2Z1dnY0c21pTk5DM29HOHZpMXlwUVlkcHJfemJWUQ?oc=5) -->
