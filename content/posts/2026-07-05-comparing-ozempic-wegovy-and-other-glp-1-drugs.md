@@ -1,0 +1,16 @@
+---
+title: "Comparing Ozempic, Wegovy and Other GLP-1 Drugs"
+title_fr: "Ozempic, Wegovy et autres médicaments GLP-1 : comment les comparer - Google News"
+date: 2026-07-05T09:39:46+01:00
+draft: false
+description: "Les agonistes du récepteur GLP-1 révolutionnent le traitement du diabète et de l'obésité, mais ces molécules ne sont pas interchangeables."
+source_name: "news.google.com"
+source_url: "https://news.google.com/rss/articles/CBMid0FVX3lxTE1xdC1iYm1PZjhLcVJhNGk1M3JjYjNqaVJYR1NqSFh1bXViR0lNSVBOQjFEQTFoUHhqVnlRWm9rTkpFdWMtNmpoaHJhSm8wMGtjZFJ6dDBQYVU4SkdsaVNZaGlOaDNsN3dLNVYwNF9BZE5qaGRHTjZJ?oc=5"
+summary_fr: "Les agonistes du récepteur GLP-1 révolutionnent le traitement du diabète et de l'obésité, mais ces molécules ne sont pas interchangeables."
+content_fr: |
+  Les agonistes du récepteur GLP-1 révolutionnent le traitement du diabète et de l'obésité, mais ces molécules ne sont pas interchangeables. Ozempic et Wegovy, bien que contenant le même principe actif la sémaglutide, possèdent des formulations et des dosages différents selon leur indication. Ozempic cible principalement le diabète de type 2, tandis que Wegovy s'adresse aux patients en surpoids. Le Mounjaro (tirzépatide) représente une nouvelle génération : il agit sur deux récepteurs hormonaux au lieu d'un, offrant potentiellement une efficacité supérieure. Ces médicaments fonctionnent en ralentissant la vidange gastrique et en modulant l'appétit via le système nerveux. Les différences résident dans leur composition chimique, leur puissance, leur posologie et leurs effets indésirables spécifiques. Certains patients répondent mieux à l'un qu'à l'autre, rendant essentiel le suivi médical personnalisé. Les coûts varient également significativement selon les formules et les couvertures d'assurance. Avant de choisir, consulter un professionnel de santé permet d'évaluer l'option la plus adaptée à chaque situation clinique.
+content_en: |
+  GLP-1 receptor agonists are transforming diabetes and obesity treatment, yet these medications are far from identical. While Ozempic and Wegovy both contain semaglutide, they differ in formulation and dosage based on their intended use. Ozempic primarily targets type 2 diabetes, whereas Wegovy is designed for weight management in overweight patients. Mounjaro (tirzepathide) represents a breakthrough innovation: it activates two hormone receptors instead of one, potentially delivering greater effectiveness. These drugs work by slowing gastric emptying and regulating appetite through the nervous system. Key distinctions include their chemical structure, potency, dosing schedules, and specific side effect profiles. Individual patient responses vary considerably, making personalized medical supervision critical. Costs differ substantially depending on formulation type and insurance coverage. Before making a choice, consulting a healthcare provider is essential to determine which option best matches individual clinical needs and circumstances.
+---
+<!-- Article généré automatiquement par Mounjaro News -->
+<!-- Source : [news.google.com](https://news.google.com/rss/articles/CBMid0FVX3lxTE1xdC1iYm1PZjhLcVJhNGk1M3JjYjNqaVJYR1NqSFh1bXViR0lNSVBOQjFEQTFoUHhqVnlRWm9rTkpFdWMtNmpoaHJhSm8wMGtjZFJ6dDBQYVU4SkdsaVNZaGlOaDNsN3dLNVYwNF9BZE5qaGRHTjZJ?oc=5) -->
