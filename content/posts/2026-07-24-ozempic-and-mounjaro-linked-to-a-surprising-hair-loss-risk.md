@@ -1,0 +1,16 @@
+---
+title: "Ozempic and Mounjaro linked to a surprising hair loss risk"
+title_fr: "Ozempic et Mounjaro associés à un risque inattendu de chute de cheveux - Google News"
+date: 2026-07-24T09:18:06+01:00
+draft: false
+description: "Des médecins signalent un effet indésirable surprenant chez les patients traités par le Mounjaro et des médicaments similaires."
+source_name: "news.google.com"
+source_url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VMTlvem1OU1RnUlhHb2N3emdCVFBXOThBbWhVaDVTZmxWeVNmZHc1Um83cmxxazVJY1RtUlhEeHNBMUxxLXRhTzc2X3VwakJXelpuRVVCNmc1cmgxWk1uUGUzVml4em54R0x0OG52QQ?oc=5"
+summary_fr: "Des médecins signalent un effet indésirable surprenant chez les patients traités par le Mounjaro et des médicaments similaires."
+content_fr: |
+  Des médecins signalent un effet indésirable surprenant chez les patients traités par le Mounjaro et des médicaments similaires. La perte de cheveux, appelée effluvium télogène, serait liée à ces traitements innovants utilisés contre le diabète et l'obésité. Ce phénomène ne figure pas parmi les effets secondaires officiellement documentés, ce qui intrigue la communauté médicale. Les experts expliquent que cet effet pourrait résulter du stress physiologique intense provoqué par une perte de poids rapide. Le corps, en situation de choc métabolique, donne la priorité aux fonctions vitales, ralentissant la croissance capillaire. Des cas ont été rapportés sur les réseaux sociaux et dans les consultations dermatologiques, alertant professionnels de santé et patients. Bien que le nombre de cas reste à documenter précisément, cette découverte soulève des questions importantes sur le profil de sécurité à long terme de ces médicaments très populaires. Les autorités sanitaires et fabricants examinent ces rapports pour déterminer s'il existe une causalité directe ou si d'autres facteurs sont impliqués.
+content_en: |
+  Physicians are reporting a surprising adverse effect in patients treated with Mounjaro and similar medications. Hair loss, medically known as telogen effluvium, appears to be linked to these innovative treatments used for diabetes and obesity. This phenomenon was not included in officially documented side effects, prompting medical investigation. Experts suggest the effect may result from intense physiological stress caused by rapid weight loss. When the body experiences metabolic shock, it prioritizes vital functions while slowing hair growth. Cases have been reported on social media and in dermatology clinics, alerting healthcare professionals and patients alike. Although the precise number of affected individuals requires further documentation, this discovery raises important questions about the long-term safety profile of these increasingly popular medications. Health authorities and manufacturers are examining these reports to determine whether there is direct causality or if other contributing factors are involved. Ongoing monitoring and research will help clarify this emerging concern.
+---
+<!-- Article généré automatiquement par Mounjaro News -->
+<!-- Source : [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE1VMTlvem1OU1RnUlhHb2N3emdCVFBXOThBbWhVaDVTZmxWeVNmZHc1Um83cmxxazVJY1RtUlhEeHNBMUxxLXRhTzc2X3VwakJXelpuRVVCNmc1cmgxWk1uUGUzVml4em54R0x0OG52QQ?oc=5) -->
