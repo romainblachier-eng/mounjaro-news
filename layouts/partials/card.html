@@ -1,0 +1,10 @@
+{{- $lede := .Params.lede | default (.Summary | plainify) -}}
+{{- $source := .Params.source_name -}}
+<article class="card">
+  <span class="card__source">{{ with $source }}{{ . }}{{ else }}{{ $.Date | time.Format "2 January 2006" }}{{ end }}</span>
+  <h3><a class="card__link" href="{{ .RelPermalink }}">{{ partial "typo.html" .Title }}</a></h3>
+  <p>{{ $lede | truncate 180 }}</p>
+  {{ with $source }}
+  <div class="card__foot"><time datetime="{{ $.Date.Format "2006-01-02" }}">{{ $.Date | time.Format "2 January 2006" }}</time></div>
+  {{ end }}
+</article>

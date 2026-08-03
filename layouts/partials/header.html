@@ -1,0 +1,13 @@
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="brand" href="{{ "/" | relURL }}">
+      <span class="brand__mark">Mounjaro<em>News</em></span>
+      <span class="brand__tagline">{{ site.Params.tagline }}</span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      {{ range site.Menus.main }}
+        <a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

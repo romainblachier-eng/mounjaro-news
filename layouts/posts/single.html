@@ -1,0 +1,77 @@
+{{ define "main" }}
+<article class="article">
+  <div class="wrap">
+    <header class="article__head">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <a href="{{ "/" | relURL }}">Accueil</a> &nbsp;›&nbsp;
+        <a href="{{ "posts/" | relURL }}">Articles</a>
+      </nav>
+
+      <div class="article__kicker">
+        {{ with .Params.source_name }}<span class="kicker kicker--accent">{{ . }}</span>{{ else }}<span class="kicker kicker--accent">Revue de presse</span>{{ end }}
+        <span class="meta-line"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time></span>
+      </div>
+
+      <h1>{{ partial "typo.html" .Title }}</h1>
+
+      <div class="article__byline">
+        <span>{{ .ReadingTime }} min de lecture</span>
+        <span class="sep">·</span>
+        <span>Synthèse rédigée à partir de la source citée</span>
+      </div>
+    </header>
+
+    <div class="prose prose--article">
+      {{ .Content }}
+    </div>
+
+    {{ with .Params.source_url }}
+    <aside class="source-box">
+      <div>
+        <p class="source-box__label">Article d'origine</p>
+        <strong>{{ $.Params.source_name | default "Consulter la publication originale" }}</strong>
+      </div>
+      <a class="btn" href="{{ . }}" target="_blank" rel="noopener noreferrer nofollow">Lire la source →</a>
+    </aside>
+    {{ end }}
+
+    <p class="notice">
+      <strong>Information, pas prescription.</strong>
+      {{ site.Params.disclaimer }}
+      Le Mounjaro (tirzépatide) est un médicament soumis à prescription médicale obligatoire.
+    </p>
+
+    {{ partial "ad-banner.html" . }}
+
+    <nav class="postnav" aria-label="Articles adjacents">
+      {{ with .PrevInSection }}
+      <a class="prev" href="{{ .RelPermalink }}">
+        <span class="kicker">← Article plus ancien</span>
+        <span class="t">{{ partial "typo.html" (.Title | truncate 90) }}</span>
+      </a>
+      {{ else }}<span></span>{{ end }}
+      {{ with .NextInSection }}
+      <a class="next" href="{{ .RelPermalink }}">
+        <span class="kicker">Article plus récent →</span>
+        <span class="t">{{ partial "typo.html" (.Title | truncate 90) }}</span>
+      </a>
+      {{ end }}
+    </nav>
+  </div>
+
+  {{- $related := first 3 (where (where site.RegularPages "Section" "posts") "Permalink" "!=" .Permalink) -}}
+  {{ with $related }}
+  <section class="section wrap">
+    <div class="section__head">
+      <h2 class="section__title">À lire également</h2>
+      <a class="section__link" href="{{ "posts/" | relURL }}">Toute l'actualité →</a>
+    </div>
+    <div class="grid">
+      {{ range . }}{{ partial "card.html" . }}{{ end }}
+    </div>
+  </section>
+  {{ end }}
+</article>
+
+{{ partial "newsletter.html" . }}
+{{ end }}

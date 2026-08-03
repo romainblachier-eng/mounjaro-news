@@ -1,0 +1,57 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{{- $isHome := .IsHome -}}
+{{- $title := cond $isHome (printf "%s — %s" site.Title site.Params.tagline) (printf "%s | %s" .Title site.Title) -}}
+{{- $desc := cond (ne .Description "") .Description (cond $isHome site.Params.description (.Summary | plainify | truncate 158)) -}}
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc | plainify }}">
+<meta name="keywords" content="{{ site.Params.keywords }}">
+<meta name="author" content="{{ site.Params.author }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ with site.Params.google_site_verification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+
+<meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="{{ cond $isHome site.Title .Title }}">
+<meta property="og:description" content="{{ $desc | plainify }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ if .IsPage }}<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+{{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+
+{{ with resources.Get "css/main.css" }}
+  {{ $css := . | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ end }}
+
+{{ if .IsPage }}
+<script type="application/ld+json">
+{{ dict
+  "@context" "https://schema.org"
+  "@type" "NewsArticle"
+  "headline" .Title
+  "description" ($desc | plainify)
+  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+  "inLanguage" "fr-FR"
+  "mainEntityOfPage" .Permalink
+  "publisher" (dict "@type" "Organization" "name" site.Title "url" site.BaseURL)
+  "author" (dict "@type" "Organization" "name" site.Params.author)
+  | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{ end }}
+
+{{ with site.Params.adsense_publisher }}
+{{ if hugo.IsProduction }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
+{{ end }}
+{{ end }}

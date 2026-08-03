@@ -1,0 +1,124 @@
+{{ define "main" }}
+{{- $paginator := .Paginate (.RegularPages.GroupByDate "2006-01") -}}
+
+<div class="wrap">
+  <div class="frontpage-head">
+    <div class="frontpage-head__meta">
+      <span class="kicker kicker--accent">Archives</span>
+      <span class="kicker">{{ len .RegularPages }} articles</span>
+    </div>
+    <h1>{{ if .IsSection }}Tous les articles{{ else }}{{ .Title }}{{ end }}</h1>
+    <p>Toute la veille Mounjaro et tirzépatide, du plus récent au plus ancien.</p>
+  </div>
+</div>
+
+<section class="section wrap">
+  <label class="search" for="q">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+    </svg>
+    <input type="search" id="q" autocomplete="off" placeholder="Rechercher un sujet, un média, une molécule…">
+    <span class="search__count" id="q-count" hidden></span>
+  </label>
+
+  <div id="results" class="archive" hidden></div>
+
+  <div id="archive" class="archive">
+    {{ range $paginator.PageGroups }}
+    <div class="archive__group">
+      <p class="archive__month">{{ (time.AsTime (printf "%s-01" .Key)) | time.Format "January 2006" }}</p>
+      {{ range .Pages }}
+      <article class="entry">
+        <div class="entry__date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 Jan" }}</time></div>
+        <div>
+          {{ with .Params.source_name }}<span class="entry__source">{{ . }}</span>{{ end }}
+          <h3><a href="{{ .RelPermalink }}">{{ partial "typo.html" .Title }}</a></h3>
+          <p>{{ partial "typo.html" (.Params.lede | default (.Summary | plainify) | truncate 190) }}</p>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav class="pager" aria-label="Pagination">
+      {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}" rel="prev">← Précédent</a>{{ else }}<span class="is-disabled">← Précédent</span>{{ end }}
+      {{- $total := $paginator.TotalPages -}}
+      {{- $cur := $paginator.PageNumber -}}
+      {{- $show := slice 1 2 (sub $total 1) $total (sub $cur 1) $cur (add $cur 1) -}}
+      {{- $last := 0 -}}
+      {{ range $paginator.Pagers }}
+        {{- if in $show .PageNumber }}
+          {{- if gt (sub .PageNumber $last) 1 }}<span class="is-disabled" aria-hidden="true">…</span>{{ end }}
+          {{- if eq . $paginator }}<span class="is-active" aria-current="page">{{ .PageNumber }}</span>{{ else }}<a href="{{ .URL }}">{{ .PageNumber }}</a>{{ end }}
+          {{- $last = .PageNumber }}
+        {{- end }}
+      {{ end }}
+      {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}" rel="next">Suivant →</a>{{ else }}<span class="is-disabled">Suivant →</span>{{ end }}
+    </nav>
+    {{ end }}
+  </div>
+</section>
+
+{{ partial "newsletter.html" . }}
+
+<script>
+(function () {
+  const input   = document.getElementById('q');
+  const results = document.getElementById('results');
+  const archive = document.getElementById('archive');
+  const counter = document.getElementById('q-count');
+  let index = null, loading = false;
+
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+  async function load() {
+    if (index || loading) return;
+    loading = true;
+    try {
+      const res = await fetch('{{ "index.json" | relURL }}');
+      index = (await res.json()).map(a => Object.assign(a, { _h: norm(a.title + ' ' + a.lede + ' ' + a.source) }));
+    } catch (e) { index = []; }
+    loading = false;
+  }
+
+  function render(items, query) {
+    if (!items.length) {
+      results.innerHTML = '<p class="empty">Aucun article ne correspond à « ' + esc(query) + ' ».</p>';
+      return;
+    }
+    results.innerHTML = items.slice(0, 60).map(a => `
+      <article class="entry">
+        <div class="entry__date"><time datetime="${esc(a.iso)}">${esc(a.short)}</time></div>
+        <div>
+          ${a.source ? `<span class="entry__source">${esc(a.source)}</span>` : ''}
+          <h3><a href="${esc(a.url)}">${esc(a.title)}</a></h3>
+          <p>${esc(a.lede)}</p>
+        </div>
+      </article>`).join('');
+  }
+
+  let timer;
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(async () => {
+      const q = input.value.trim();
+      if (q.length < 2) {
+        results.hidden = true; archive.hidden = false; counter.hidden = true;
+        return;
+      }
+      await load();
+      const terms = norm(q).split(/\s+/).filter(Boolean);
+      const hits = index.filter(a => terms.every(t => a._h.includes(t)));
+      archive.hidden = true; results.hidden = false;
+      counter.hidden = false;
+      counter.textContent = hits.length + (hits.length > 1 ? ' résultats' : ' résultat');
+      render(hits, q);
+    }, 120);
+  });
+
+  input.addEventListener('focus', load, { once: true });
+})();
+</script>
+{{ end }}

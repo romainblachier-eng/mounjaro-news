@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="wrap">
+  <div class="frontpage-head">
+    <span class="kicker kicker--accent">Erreur 404</span>
+    <h1 style="margin-top:16px">Cette page n'existe pas (ou plus)</h1>
+    <p>Le lien est peut-être erroné. Vous pouvez reprendre la lecture depuis la page d'accueil.</p>
+    <p style="margin-top:24px">
+      <a class="btn" href="{{ "/" | relURL }}">Retour à l'accueil</a>
+      <a class="btn btn--ghost" href="{{ "posts/" | relURL }}" style="margin-left:8px">Tous les articles</a>
+    </p>
+  </div>
+</div>
+
+<section class="section wrap">
+  <div class="section__head"><h2 class="section__title">Derniers articles</h2></div>
+  <div class="grid">
+    {{ range first 6 (where site.RegularPages "Section" "posts") }}{{ partial "card.html" . }}{{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,107 +1,17 @@
 {{ define "main" }}
-{{ $beehiiv := .Site.Params.beehiiv_embed_url }}
+<article class="article">
+  <div class="wrap">
+    <header class="article__head">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <a href="{{ "/" | relURL }}">Accueil</a> &nbsp;›&nbsp; {{ .Title }}
+      </nav>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.lede }}<p class="article__lede">{{ . }}</p>{{ end }}
+    </header>
 
-<!-- Article Header -->
-<div class="article-header">
-  <div class="article-header-inner">
-    <a href="{{ "/" | relURL }}" class="back-link">← Retour aux articles - Back to articles</a>
-    <div class="article-label">🔬 Mounjaro - Tirzepatide</div>
-    <h1>{{ .Title }}</h1>
-    <div class="article-meta">
-      <span class="meta-chip">📅 {{ .Date.Format "2 January 2006" }}</span>
-      {{ with .Params.source_name }}
-      <span class="meta-chip">📰 {{ . }}</span>
-      {{ end }}
-      {{ with .Params.source_url }}
-      <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="source-link">🔗 Source originale</a>
-      {{ end }}
+    <div class="prose">
+      {{ .Content }}
     </div>
   </div>
-</div>
-
-<!-- Article Body -->
-<div class="article-body">
-
-  {{ partial "ad-banner.html" . }}
-
-  <div class="lang-switcher" id="langSwitcher">
-    <button class="lang-btn active" data-lang="fr" onclick="switchLang('fr')">
-      🇫🇷 Francais
-    </button>
-    <button class="lang-btn" data-lang="en" onclick="switchLang('en')">
-      🇬🇧 English
-    </button>
-  </div>
-
-  <div class="bilingual-grid">
-
-    <div class="lang-block" id="block-fr">
-      <div class="lang-header">
-        <span class="lang-flag">🇫🇷</span> Version francaise
-      </div>
-      <div class="lang-content">
-        {{ with .Params.content_fr }}
-          {{ . | markdownify }}
-        {{ else }}
-          {{ .Content }}
-        {{ end }}
-      </div>
-    </div>
-
-    <div class="lang-block" id="block-en">
-      <div class="lang-header">
-        <span class="lang-flag">🇬🇧</span> English version
-      </div>
-      <div class="lang-content">
-        {{ with .Params.content_en }}
-          {{ . | markdownify }}
-        {{ else }}
-          <p><em>English translation not available.</em></p>
-        {{ end }}
-      </div>
-    </div>
-
-  </div>
-
-  {{ partial "ad-banner.html" . }}
-
-  <div class="newsletter-section">
-    <div class="newsletter-inner">
-      <div class="newsletter-icon">📬</div>
-      <h3>Votre veille Mounjaro, chaque matin</h3>
-      <p>
-        Recevez gratuitement le resume quotidien FR &amp; EN des dernieres actualites tirzepatide.
-        <em>Subscribe free - daily bilingual digest in your inbox.</em>
-      </p>
-      {{ if $beehiiv }}
-        <iframe src="{{ $beehiiv }}" class="beehiiv-embed" data-test-id="beehiiv-embed"
-          frameborder="0" scrolling="no">
-        </iframe>
-      {{ end }}
-    </div>
-  </div>
-
-</div>
-
-<script>
-function switchLang(lang) {
-  const isMobile = window.innerWidth <= 700;
-  if (!isMobile) return;
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.lang === lang);
-  });
-  document.getElementById('block-fr').style.display = (lang === 'fr') ? '' : 'none';
-  document.getElementById('block-en').style.display = (lang === 'en') ? '' : 'none';
-}
-if (window.innerWidth <= 700) {
-  document.getElementById('block-en').style.display = 'none';
-}
-window.addEventListener('resize', function() {
-  if (window.innerWidth > 700) {
-    document.getElementById('block-fr').style.display = '';
-    document.getElementById('block-en').style.display = '';
-  }
-});
-</script>
-
+</article>
 {{ end }}

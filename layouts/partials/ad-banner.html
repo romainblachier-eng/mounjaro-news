@@ -1,13 +1,14 @@
-{{ with .Site.Params.adsense_publisher }}
-<div class="ad-wrapper">
-  <p class="ad-label">Publicité</p>
+{{ if hugo.IsProduction }}
+{{ with site.Params.adsense_publisher }}
+<aside class="ad">
+  <p class="ad__label">Publicité</p>
   <ins class="adsbygoogle"
        style="display:block;text-align:center;"
        data-ad-layout="in-article"
        data-ad-format="fluid"
        data-ad-client="{{ . }}"
-       data-ad-slot="auto">
-  </ins>
+       data-ad-slot="auto"></ins>
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
+</aside>
+{{ end }}
 {{ end }}

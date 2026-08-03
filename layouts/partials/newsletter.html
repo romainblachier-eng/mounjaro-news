@@ -1,0 +1,17 @@
+<section class="newsletter" id="newsletter">
+  <div class="wrap newsletter__inner">
+    <div>
+      <span class="kicker">Chaque matin, gratuitement</span>
+      <h2>Votre veille Mounjaro dans votre boîte mail</h2>
+      <p>
+        Le résumé quotidien des actualités tirzépatide : décisions des autorités de santé,
+        études cliniques, remboursement, effets indésirables.
+      </p>
+    </div>
+    <div>
+      {{ with site.Params.beehiiv_embed_url }}
+        <iframe src="{{ . }}" title="Inscription à la newsletter" loading="lazy" scrolling="no"></iframe>
+      {{ end }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,40 @@
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__about">
+        <h3>Mounjaro News</h3>
+        <p>
+          Veille quotidienne sur le Mounjaro (tirzépatide) : la presse spécialisée, les autorités
+          de santé et la littérature scientifique, résumées en français.
+        </p>
+        <p style="font-size:.82rem;color:var(--ink-soft)">
+          {{ site.Params.disclaimer }}
+        </p>
+      </div>
+
+      <div>
+        <h3>Naviguer</h3>
+        <ul>
+          {{ range site.Menus.main }}
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end }}
+          <li><a href="{{ "mentions-legales/" | relURL }}">Mentions légales</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Suivre</h3>
+        <ul>
+          <li><a href="{{ "index.xml" | relURL }}">Flux RSS</a></li>
+          <li><a href="{{ "#newsletter" | relURL }}">Newsletter quotidienne</a></li>
+          {{ with site.Params.email }}<li><a href="mailto:{{ . }}">Nous écrire</a></li>{{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__legal">
+      <span>© {{ now.Year }} Mounjaro News — Site indépendant, sans lien avec Eli Lilly and Company.</span>
+      <span>Mounjaro® est une marque déposée de son propriétaire.</span>
+    </div>
+  </div>
+</footer>

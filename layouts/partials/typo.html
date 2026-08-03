@@ -1,0 +1,8 @@
+{{- /*
+  Typographie française : espace fine insécable avant ? ! : ; % et à l'intérieur des guillemets.
+  Usage : {{ partial "typo.html" .Title }}
+*/ -}}
+{{- $s := . | htmlEscape -}}
+{{- $s = replaceRE `\s+([?!;:%»])` "&#8239;$1" $s -}}
+{{- $s = replaceRE `([«])\s+` "$1&#8239;" $s -}}
+{{- return ($s | safeHTML) -}}

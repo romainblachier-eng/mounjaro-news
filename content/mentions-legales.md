@@ -1,10 +1,8 @@
 ---
-title: "Mentions légales & Politique de confidentialité"
+title: "Mentions légales & politique de confidentialité"
 date: 2026-01-01
-layout: "single"
 url: "/mentions-legales/"
-hidemeta: true
-ShowBreadCrumbs: false
+lede: "Éditeur, hébergement, propriété intellectuelle, données personnelles et cookies."
 ---
 
 ## Éditeur du site
@@ -47,5 +45,5 @@ Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de
 ## Crédits
 
 - Générateur de site : [Hugo](https://gohugo.io/)
-- Thème : [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+- Thème : développé sur mesure pour Mounjaro News
 - IA : [Claude par Anthropic](https://claude.ai/)

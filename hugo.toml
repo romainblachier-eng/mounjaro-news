@@ -1,66 +1,41 @@
 baseURL = "https://mounjaronews.info/"
 languageCode = "fr-FR"
-title = "Mounjaro News - Actualite tirzepatide"
 defaultContentLanguage = "fr"
-theme = "PaperMod"
+title = "Mounjaro News"
+enableRobotsTXT = true
+summaryLength = 40
+
+[pagination]
+  pagerSize = 24
 
 [params]
-  description      = "Votre source d'information fiable sur le Mounjaro (tirzepatide) - veille quotidienne, articles sources, traduits et reformules par IA"
-  description_en   = "Your trusted source for Mounjaro (tirzepatide) news - daily sourced, translated and AI-reformulated articles"
+  tagline          = "L'actualité du tirzépatide"
+  description      = "Toute l'actualité du Mounjaro (tirzépatide) : veille quotidienne des sources médicales et de la presse internationale, en français."
   author           = "Mounjaro News"
+  email            = "romain.blachier@gmail.com"
   beehiiv_embed_url = "https://subscribe-forms.beehiiv.com/91587c2f-9b1e-45e3-95cf-1f8ca0fe3c4b"
-  coinzilla_zone_id  = ""
-  adsense_publisher  = "ca-pub-4796217302525352"
+  adsense_publisher = "ca-pub-4796217302525352"
+  google_site_verification = "i4BFwUFN_m_FBnjx-mbnwyeurPoRtZy5iCTciCOFGsM"
+  keywords         = "Mounjaro, tirzépatide, GLP-1, perte de poids, diabète de type 2, obésité, Eli Lilly, actualités Mounjaro"
+  disclaimer       = "Ce site propose une revue de presse à visée informative. Il ne délivre aucun conseil médical et ne remplace pas l'avis d'un professionnel de santé."
 
-  # SEO
-  keywords_fr = "Mounjaro, tirzepatide, GLP-1, perte de poids, diabete type 2, obesite, Eli Lilly, actualites Mounjaro, tirzepatide France, tirzepatide actualites"
-  keywords_en = "Mounjaro, tirzepatide, GLP-1, weight loss, type 2 diabetes, obesity, Eli Lilly, Mounjaro news, tirzepatide news"
-
-  # PaperMod params
-  env = "production"
-  defaultTheme = "light"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = false
-  disableSpecial1stPost = true
-
-  [params.homeInfoParams]
-    Title = "Mounjaro News"
-    Content = "Votre source d'information fiable sur le Mounjaro (tirzepatide)"
-
-  [[params.socialIcons]]
-    name = "rss"
-    url = "/index.xml"
-
-[params.label]
-  text = "Mounjaro News"
-  icon = "/favicon.svg"
-  iconHeight = 24
-
-[[menu.main]]
-  identifier = "accueil"
-  name = "Accueil"
-  url = "/"
-  weight = 10
-
-[[menu.main]]
-  identifier = "articles"
-  name = "Articles"
-  url = "/posts/"
-  weight = 20
-
-[[menu.main]]
-  identifier = "newsletter"
-  name = "Newsletter"
-  url = "/#newsletter"
-  weight = 30
+[menus]
+  [[menus.main]]
+    name = "À la une"
+    url = "/"
+    weight = 10
+  [[menus.main]]
+    name = "Tous les articles"
+    url = "/posts/"
+    weight = 20
+  [[menus.main]]
+    name = "Newsletter"
+    url = "/#newsletter"
+    weight = 30
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.tableOfContents]
     startLevel = 2
     endLevel   = 4
