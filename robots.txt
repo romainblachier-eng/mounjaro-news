@@ -1,7 +1,1 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://mounjaronews.info/sitemap.xml
-
-Disallow: /tags/
-Disallow: /categories/
